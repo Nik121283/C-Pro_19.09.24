@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW_3_Abstract_classes_and_interfaces
 {
-    public class MyArray : IOutput
+    public class MyArray : IOutput, IMath
     {
 
         public int[] array;
@@ -24,6 +24,18 @@ namespace HW_3_Abstract_classes_and_interfaces
 
             this.array[current_size-1] = item;
 
+        }
+
+        public float Avg()
+        {
+            float result = 0;
+
+            foreach(int i in this.array)
+            {
+                result += i;
+            }
+
+            return result / this.current_size;
         }
 
         public void DeleteItem(int deletingIndex)
@@ -55,6 +67,34 @@ namespace HW_3_Abstract_classes_and_interfaces
             this.array = newarray;
         }
 
+        public int Max()
+        {
+            int result = -2147483648;
+
+            for(int i=0; i < this.current_size; i++)
+            {
+                if (this.array[i] > result)
+                {
+                    result = this.array[i];
+                }
+            }
+            return result;
+        }
+
+        public int Min()
+        {
+            int result = 2147483647;
+
+            for (int i = 0; i < this.current_size; i++)
+            {
+                if (this.array[i] < result)
+                {
+                    result = this.array[i];
+                }
+            }
+            return result;
+        }
+
         public void ResizeArray(int newsize)
         {
             int[] newarray = new int[newsize];
@@ -69,7 +109,10 @@ namespace HW_3_Abstract_classes_and_interfaces
             this.array = newarray;
         }
 
-
+        public bool Search(int valueToSearch)
+        {
+            throw new NotImplementedException();
+        }
 
         public void Show()
         {

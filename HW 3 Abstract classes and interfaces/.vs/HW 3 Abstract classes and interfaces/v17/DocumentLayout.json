@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{7D16315F-3AE6-4F36-9782-23328CF0793F}|HW 3 Abstract classes and interfaces.csproj|solutionrelative:myarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7D16315F-3AE6-4F36-9782-23328CF0793F}|HW 3 Abstract classes and interfaces.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\hw 3 abstract classes and interfaces\\imath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D16315F-3AE6-4F36-9782-23328CF0793F}|HW 3 Abstract classes and interfaces.csproj|solutionrelative:imath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7D16315F-3AE6-4F36-9782-23328CF0793F}|HW 3 Abstract classes and interfaces.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\hw 3 abstract classes and interfaces\\ioutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D16315F-3AE6-4F36-9782-23328CF0793F}|HW 3 Abstract classes and interfaces.csproj|solutionrelative:ioutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +42,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMath.cs",
+              "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 3 Abstract classes and interfaces\\IMath.cs",
+              "RelativeDocumentMoniker": "IMath.cs",
+              "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 3 Abstract classes and interfaces\\IMath.cs",
+              "RelativeToolTip": "IMath.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T09:32:28.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MyArray.cs",
               "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 3 Abstract classes and interfaces\\MyArray.cs",
               "RelativeDocumentMoniker": "MyArray.cs",
               "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 3 Abstract classes and interfaces\\MyArray.cs",
               "RelativeToolTip": "MyArray.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAmAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwE8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T07:45:40.624Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IOutput.cs",
               "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 3 Abstract classes and interfaces\\IOutput.cs",
               "RelativeDocumentMoniker": "IOutput.cs",
@@ -70,7 +87,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 3 Abstract classes and interfaces\\Program.cs*",
               "RelativeToolTip": "Program.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T07:42:42.147Z",
               "EditorCaption": ""

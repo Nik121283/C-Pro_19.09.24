@@ -20,3 +20,12 @@ array1.AddItem(3);
 
 Console.WriteLine("");
 array1.Show();
+
+Console.WriteLine("Max");
+Console.WriteLine(array1.Max());
+
+Console.WriteLine("Min");
+Console.WriteLine(array1.Min());
+
+Console.WriteLine("AVG");
+Console.WriteLine(array1.Avg());
