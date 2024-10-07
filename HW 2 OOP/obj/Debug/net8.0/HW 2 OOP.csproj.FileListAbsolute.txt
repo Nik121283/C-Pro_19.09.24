@@ -1,0 +1,15 @@
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 2 OOP\bin\Debug\net8.0\HW 2 OOP.exe
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 2 OOP\bin\Debug\net8.0\HW 2 OOP.deps.json
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 2 OOP\bin\Debug\net8.0\HW 2 OOP.runtimeconfig.json
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 2 OOP\bin\Debug\net8.0\HW 2 OOP.dll
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 2 OOP\bin\Debug\net8.0\HW 2 OOP.pdb
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 2 OOP\obj\Debug\net8.0\HW 2 OOP.GeneratedMSBuildEditorConfig.editorconfig
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 2 OOP\obj\Debug\net8.0\HW 2 OOP.AssemblyInfoInputs.cache
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 2 OOP\obj\Debug\net8.0\HW 2 OOP.AssemblyInfo.cs
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 2 OOP\obj\Debug\net8.0\HW 2 OOP.csproj.CoreCompileInputs.cache
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 2 OOP\obj\Debug\net8.0\HW 2 OOP.sourcelink.json
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 2 OOP\obj\Debug\net8.0\HW 2 OOP.dll
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 2 OOP\obj\Debug\net8.0\refint\HW 2 OOP.dll
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 2 OOP\obj\Debug\net8.0\HW 2 OOP.pdb
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 2 OOP\obj\Debug\net8.0\HW 2 OOP.genruntimeconfig.cache
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 2 OOP\obj\Debug\net8.0\ref\HW 2 OOP.dll
