@@ -18,14 +18,22 @@ array1.Show();
 
 array1.AddItem(3);
 
+array1.AddItem(7);
+
 Console.WriteLine("");
 array1.Show();
 
-Console.WriteLine("Max");
+Console.WriteLine("\nMax");
 Console.WriteLine(array1.Max());
 
-Console.WriteLine("Min");
+Console.WriteLine("\nMin");
 Console.WriteLine(array1.Min());
 
-Console.WriteLine("AVG");
+Console.WriteLine("\nAVG");
 Console.WriteLine(array1.Avg());
+
+Console.WriteLine("\nSearch 7 - must be true");
+Console.WriteLine(array1.Search(7));
+
+Console.WriteLine("\nSearch 9 - must be false");
+Console.WriteLine(array1.Search(9));

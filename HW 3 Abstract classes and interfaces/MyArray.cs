@@ -111,7 +111,17 @@ namespace HW_3_Abstract_classes_and_interfaces
 
         public bool Search(int valueToSearch)
         {
-            throw new NotImplementedException();
+            bool result = false;
+            
+            for(int i = 0; i < this.current_size; i++)
+            {
+                if (this.array[i] == valueToSearch)
+                {
+                    result= true;
+                }
+            }
+
+            return result;
         }
 
         public void Show()
