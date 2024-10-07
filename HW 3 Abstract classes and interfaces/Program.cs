@@ -2,11 +2,13 @@
 
 using HW_3_Abstract_classes_and_interfaces;
 
-MyArray array1 = new MyArray(3);
+MyArray array1 = new MyArray(5);
 
 array1.array[0] = 0;
-array1.array[1] = 1;
-array1.array[2] = 2;
+array1.array[1] = 5;
+array1.array[2] = 4;
+array1.array[3] = 2;
+array1.array[4] = 6;
 
 Console.WriteLine("");
 array1.Show();
@@ -37,3 +39,13 @@ Console.WriteLine(array1.Search(7));
 
 Console.WriteLine("\nSearch 9 - must be false");
 Console.WriteLine(array1.Search(9));
+
+Console.WriteLine("\nSort ASC");
+array1.SortAsc();
+array1.Show();
+
+Console.WriteLine("\nSort DESC");
+array1.SortDesc();
+array1.Show();
+
+Console.ReadLine();

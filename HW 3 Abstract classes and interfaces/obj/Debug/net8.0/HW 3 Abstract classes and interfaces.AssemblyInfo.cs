@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW 3 Abstract classes and interfaces")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edca2605cf0151211ce5aaa16f9547743a558e63")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+637c8d13901e5ff22f0087f4f20d33188851827a")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW 3 Abstract classes and interfaces")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW 3 Abstract classes and interfaces")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

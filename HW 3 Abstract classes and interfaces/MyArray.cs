@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW_3_Abstract_classes_and_interfaces
 {
-    public class MyArray : IOutput, IMath
+    public class MyArray : IOutput, IMath, ISort
     {
 
         public int[] array;
@@ -137,6 +137,58 @@ namespace HW_3_Abstract_classes_and_interfaces
             foreach (int i in array)
             {
                 Console.WriteLine($"{info}: {i}");
+            }
+        }
+
+        public void SortAsc()
+        {
+            int n = 1;
+
+            for(int j=0; j< this.current_size-1; j++)
+            {
+                for (int i = 0; i < this.current_size-n; i++)
+                {
+                    if (this.array[i] > this.array[i + 1])
+                    {
+                        int temp = this.array[i + 1];
+
+                        this.array[i + 1] = this.array[i];
+
+                        this.array[i] = temp;
+                    }
+                }
+                n++;
+            }
+
+        }
+
+        public void SortByParam(bool if_true_asc)
+        {
+            if(if_true_asc == true)
+            {
+                this.SortAsc();
+            }
+            else { this.SortDesc(); }
+        }
+
+        public void SortDesc()
+        {
+            int n = 1;
+
+            for (int j = 0; j < this.current_size - 1; j++)
+            {
+                for (int i = 0; i < this.current_size-n; i++)
+                {
+                    if (this.array[i] < this.array[i + 1])
+                    {
+                        int temp = this.array[i + 1];
+
+                        this.array[i + 1] = this.array[i];
+
+                        this.array[i] = temp;
+                    }
+                }
+                n++;
             }
         }
     }
