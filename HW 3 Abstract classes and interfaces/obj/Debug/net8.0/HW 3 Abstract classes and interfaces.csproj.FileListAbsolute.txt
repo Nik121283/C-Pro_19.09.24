@@ -1,0 +1,15 @@
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 3 Abstract classes and interfaces\bin\Debug\net8.0\HW 3 Abstract classes and interfaces.exe
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 3 Abstract classes and interfaces\bin\Debug\net8.0\HW 3 Abstract classes and interfaces.deps.json
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 3 Abstract classes and interfaces\bin\Debug\net8.0\HW 3 Abstract classes and interfaces.runtimeconfig.json
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 3 Abstract classes and interfaces\bin\Debug\net8.0\HW 3 Abstract classes and interfaces.dll
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 3 Abstract classes and interfaces\bin\Debug\net8.0\HW 3 Abstract classes and interfaces.pdb
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 3 Abstract classes and interfaces\obj\Debug\net8.0\HW 3 Abstract classes and interfaces.GeneratedMSBuildEditorConfig.editorconfig
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 3 Abstract classes and interfaces\obj\Debug\net8.0\HW 3 Abstract classes and interfaces.AssemblyInfoInputs.cache
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 3 Abstract classes and interfaces\obj\Debug\net8.0\HW 3 Abstract classes and interfaces.AssemblyInfo.cs
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 3 Abstract classes and interfaces\obj\Debug\net8.0\HW 3 Abstract classes and interfaces.csproj.CoreCompileInputs.cache
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 3 Abstract classes and interfaces\obj\Debug\net8.0\HW 3 Abstract classes and interfaces.sourcelink.json
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 3 Abstract classes and interfaces\obj\Debug\net8.0\HW 3 Abstract classes and interfaces.dll
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 3 Abstract classes and interfaces\obj\Debug\net8.0\refint\HW 3 Abstract classes and interfaces.dll
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 3 Abstract classes and interfaces\obj\Debug\net8.0\HW 3 Abstract classes and interfaces.pdb
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 3 Abstract classes and interfaces\obj\Debug\net8.0\HW 3 Abstract classes and interfaces.genruntimeconfig.cache
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 3 Abstract classes and interfaces\obj\Debug\net8.0\ref\HW 3 Abstract classes and interfaces.dll
