@@ -35,7 +35,7 @@ namespace HW_2_OOP
         public void ChangeMoney(float changingSum)
         {
             this.dollars = dollars + (int)(changingSum / 1);
-            this.cents = cents + (int)Math.Round(((int)(changingSum / 1) - changingSum) * 100);
+            this.cents = cents + ((int)Math.Round((changingSum - (int)(changingSum / 1)) * 100));
         }
 
         public string ReturnAccountStatement()
