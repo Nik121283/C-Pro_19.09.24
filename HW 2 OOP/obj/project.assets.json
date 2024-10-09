@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\HW 2 OOP\\HW 2 OOP.csproj",
-      "projectName": "HW 2 OOP",
-      "projectPath": "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\HW 2 OOP\\HW 2 OOP.csproj",
+      "projectUniqueName": "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\HW 2 OOP\\HW 2 OOP 1.csproj",
+      "projectName": "HW 2 OOP 1",
+      "projectPath": "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\HW 2 OOP\\HW 2 OOP 1.csproj",
       "packagesPath": "C:\\Users\\N\\.nuget\\packages\\",
       "outputPath": "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\HW 2 OOP\\obj\\",
       "projectStyle": "PackageReference",

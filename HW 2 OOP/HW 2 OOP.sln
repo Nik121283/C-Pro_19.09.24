@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW 2 OOP", "HW 2 OOP.csproj", "{170BD42B-5F99-47F1-9D78-ABA395B3DAF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW 2 OOP 1", "HW 2 OOP 1.csproj", "{170BD42B-5F99-47F1-9D78-ABA395B3DAF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP 2", "..\OOP 2\OOP 2.csproj", "{0217C436-FCAC-49D1-8FAA-BD7C28A4D978}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW 2 OOP 2", "..\OOP 2\HW 2 OOP 2.csproj", "{0217C436-FCAC-49D1-8FAA-BD7C28A4D978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW 2 OOP 3", "..\HW 2 OOP 3\HW 2 OOP 3.csproj", "{8E50D93A-FCB4-4F7F-A234-3794A9882B72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0217C436-FCAC-49D1-8FAA-BD7C28A4D978}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0217C436-FCAC-49D1-8FAA-BD7C28A4D978}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0217C436-FCAC-49D1-8FAA-BD7C28A4D978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E50D93A-FCB4-4F7F-A234-3794A9882B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E50D93A-FCB4-4F7F-A234-3794A9882B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E50D93A-FCB4-4F7F-A234-3794A9882B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E50D93A-FCB4-4F7F-A234-3794A9882B72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
