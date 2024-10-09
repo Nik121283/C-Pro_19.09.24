@@ -1,0 +1,15 @@
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 4 Operators reload\bin\Debug\net8.0\HW 4 Operators reload.exe
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 4 Operators reload\bin\Debug\net8.0\HW 4 Operators reload.deps.json
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 4 Operators reload\bin\Debug\net8.0\HW 4 Operators reload.runtimeconfig.json
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 4 Operators reload\bin\Debug\net8.0\HW 4 Operators reload.dll
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 4 Operators reload\bin\Debug\net8.0\HW 4 Operators reload.pdb
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 4 Operators reload\obj\Debug\net8.0\HW 4 Operators reload.GeneratedMSBuildEditorConfig.editorconfig
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 4 Operators reload\obj\Debug\net8.0\HW 4 Operators reload.AssemblyInfoInputs.cache
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 4 Operators reload\obj\Debug\net8.0\HW 4 Operators reload.AssemblyInfo.cs
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 4 Operators reload\obj\Debug\net8.0\HW 4 Operators reload.csproj.CoreCompileInputs.cache
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 4 Operators reload\obj\Debug\net8.0\HW 4 Operators reload.sourcelink.json
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 4 Operators reload\obj\Debug\net8.0\HW 4 Operators reload.dll
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 4 Operators reload\obj\Debug\net8.0\refint\HW 4 Operators reload.dll
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 4 Operators reload\obj\Debug\net8.0\HW 4 Operators reload.pdb
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 4 Operators reload\obj\Debug\net8.0\HW 4 Operators reload.genruntimeconfig.cache
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 4 Operators reload\obj\Debug\net8.0\ref\HW 4 Operators reload.dll

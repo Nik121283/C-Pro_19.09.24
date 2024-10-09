@@ -88,6 +88,15 @@ namespace HW_4_Operators_reload
             return (emp1.Salary < emp2.Salary);
         }
 
+        public override string ToString()
+        {
+            return $"Имя: {this.Name} Фамилия: {this.Surname} Ставка:{this.Salary}";
+        }
 
+        public void Show()
+        {
+            Console.WriteLine();
+            Console.WriteLine(this);
+        }
     }
 }

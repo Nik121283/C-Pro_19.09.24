@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW 4 Operators reload")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57e254577a7c466e72b41757c541d8828e97813a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a9e5f577d0f746f67abae30186f8d87f257d3f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW 4 Operators reload")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW 4 Operators reload")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
