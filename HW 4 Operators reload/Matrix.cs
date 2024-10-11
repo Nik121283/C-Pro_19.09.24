@@ -72,13 +72,42 @@ namespace HW_4_Operators_reload
             return result;
         }
 
-        public static bool operator ==(Matrix a, Matrix b)
+        public static Matrix operator *(Matrix a, Matrix b)
         {
 
-            if (a == null || b == null)
+            //if (a == null || b == null)
+            //{
+            //    throw new ArgumentNullException();
+            //}
+
+            if (a.numberOfColumns != b.numberOfRows)
             {
-                throw new ArgumentNullException();
+                throw new ArgumentOutOfRangeException();
             }
+
+            Matrix result = new Matrix(a.numberOfRows, b.numberOfColumns);
+            for (int i = 0; i < result.numberOfRows; i++)
+            {
+                for (int j = 0; j < result.numberOfColumns; j++)
+                {
+                    
+                    for (int k = 0; k < a.numberOfColumns; k++)
+                    {
+                        int res = 0;
+                        for (int l = 0; l < b.numberOfRows; l++)
+                        {
+                            res += a.matrix[k, l] * b.matrix[l, k];
+                            result.matrix[i, j] = res;
+                        }
+                        
+                    }
+                }
+            }
+            return result;
+        }
+
+        public static bool operator ==(Matrix a, Matrix b)
+        {
 
             bool result = false;
 

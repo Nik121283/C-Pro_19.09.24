@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 4 Operators reload\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{536F8DE6-DADC-40E9-AC1A-1538A24CFF72}|HW 4 Operators reload.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\hw 4 operators reload\\matrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536F8DE6-DADC-40E9-AC1A-1538A24CFF72}|HW 4 Operators reload.csproj|solutionrelative:matrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{536F8DE6-DADC-40E9-AC1A-1538A24CFF72}|HW 4 Operators reload.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\hw 4 operators reload\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{536F8DE6-DADC-40E9-AC1A-1538A24CFF72}|HW 4 Operators reload.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +46,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Matrix.cs",
+              "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 4 Operators reload\\Matrix.cs",
+              "RelativeDocumentMoniker": "Matrix.cs",
+              "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 4 Operators reload\\Matrix.cs*",
+              "RelativeToolTip": "Matrix.cs*",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAQwGMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T14:36:32.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CreditCard.cs",
               "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 4 Operators reload\\CreditCard.cs",
               "RelativeDocumentMoniker": "CreditCard.cs",
@@ -50,12 +67,11 @@
               "RelativeToolTip": "CreditCard.cs",
               "ViewState": "AQIAACcAAAAAAAAAAAAmwFEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T13:23:05.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T13:23:05.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "City.cs",
               "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 4 Operators reload\\City.cs",
               "RelativeDocumentMoniker": "City.cs",
@@ -63,31 +79,30 @@
               "RelativeToolTip": "City.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T12:43:06.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T12:43:06.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Employee.cs",
               "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 4 Operators reload\\Employee.cs",
               "RelativeDocumentMoniker": "Employee.cs",
               "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 4 Operators reload\\Employee.cs",
               "RelativeToolTip": "Employee.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAkwF8AAAAaAAAA",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAuwF8AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T10:59:46.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 4 Operators reload\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 4 Operators reload\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAYAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAgwDoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T10:54:16.127Z",
               "EditorCaption": ""
