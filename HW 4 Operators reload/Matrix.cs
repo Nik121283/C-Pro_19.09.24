@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,6 +15,29 @@ namespace HW_4_Operators_reload
 
         private int numberOfColumns { get; set; }
 
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            for(int i = 0; i < this.numberOfRows; i++)
+            {
+                for (int j = 0; j< this.numberOfColumns; j++)
+                {
+                   sb.Append(this.matrix[i, j].ToString());
+                   sb.Append("  ");
+                }
+                sb.AppendLine();
+            }
+
+            return sb.ToString();
+        }
+
+        public void Show()
+        {
+            Console.WriteLine(this);
+        }
+
         public Matrix(int numberOfRows, int numberOfColumns)
         {
             matrix = new int[numberOfRows, numberOfColumns];
@@ -25,9 +49,9 @@ namespace HW_4_Operators_reload
         public static Matrix operator +(Matrix a, Matrix b)
         {
 
-            if (a == null || b == null)
+            if (a.numberOfRows != b.numberOfRows || a.numberOfColumns != b.numberOfColumns)
             {
-                throw new ArgumentNullException();
+                throw new ArithmeticException();
             }
 
             Matrix result = new Matrix(a.numberOfRows, a.numberOfColumns);
@@ -90,17 +114,12 @@ namespace HW_4_Operators_reload
             {
                 for (int j = 0; j < result.numberOfColumns; j++)
                 {
-                    
+                    int res = 0;
                     for (int k = 0; k < a.numberOfColumns; k++)
                     {
-                        int res = 0;
-                        for (int l = 0; l < b.numberOfRows; l++)
-                        {
-                            res += a.matrix[k, l] * b.matrix[l, k];
-                            result.matrix[i, j] = res;
-                        }
-                        
+                            res += a.matrix[i, k] * b.matrix[k,j];
                     }
+                    result.matrix[i, j] = res;
                 }
             }
             return result;
