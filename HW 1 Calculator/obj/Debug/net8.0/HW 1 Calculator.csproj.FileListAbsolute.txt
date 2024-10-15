@@ -1,0 +1,15 @@
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 1 Calculator\bin\Debug\net8.0\HW 1 Calculator.exe
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 1 Calculator\bin\Debug\net8.0\HW 1 Calculator.deps.json
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 1 Calculator\bin\Debug\net8.0\HW 1 Calculator.runtimeconfig.json
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 1 Calculator\bin\Debug\net8.0\HW 1 Calculator.dll
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 1 Calculator\bin\Debug\net8.0\HW 1 Calculator.pdb
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 1 Calculator\obj\Debug\net8.0\HW 1 Calculator.GeneratedMSBuildEditorConfig.editorconfig
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 1 Calculator\obj\Debug\net8.0\HW 1 Calculator.AssemblyInfoInputs.cache
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 1 Calculator\obj\Debug\net8.0\HW 1 Calculator.AssemblyInfo.cs
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 1 Calculator\obj\Debug\net8.0\HW 1 Calculator.csproj.CoreCompileInputs.cache
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 1 Calculator\obj\Debug\net8.0\HW 1 Calculator.sourcelink.json
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 1 Calculator\obj\Debug\net8.0\HW 1 Calculator.dll
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 1 Calculator\obj\Debug\net8.0\refint\HW 1 Calculator.dll
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 1 Calculator\obj\Debug\net8.0\HW 1 Calculator.pdb
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 1 Calculator\obj\Debug\net8.0\HW 1 Calculator.genruntimeconfig.cache
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW 1 Calculator\obj\Debug\net8.0\ref\HW 1 Calculator.dll

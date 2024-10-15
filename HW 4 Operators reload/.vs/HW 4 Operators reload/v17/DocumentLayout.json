@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 4 Operators reload\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{536F8DE6-DADC-40E9-AC1A-1538A24CFF72}|HW 4 Operators reload.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\hw 4 operators reload\\matrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{536F8DE6-DADC-40E9-AC1A-1538A24CFF72}|HW 4 Operators reload.csproj|solutionrelative:matrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{536F8DE6-DADC-40E9-AC1A-1538A24CFF72}|HW 4 Operators reload.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\hw 4 operators reload\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{536F8DE6-DADC-40E9-AC1A-1538A24CFF72}|HW 4 Operators reload.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536F8DE6-DADC-40E9-AC1A-1538A24CFF72}|HW 4 Operators reload.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\hw 4 operators reload\\matrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536F8DE6-DADC-40E9-AC1A-1538A24CFF72}|HW 4 Operators reload.csproj|solutionrelative:matrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{536F8DE6-DADC-40E9-AC1A-1538A24CFF72}|HW 4 Operators reload.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\hw 4 operators reload\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,16 +46,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Matrix.cs",
               "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 4 Operators reload\\Matrix.cs",
               "RelativeDocumentMoniker": "Matrix.cs",
-              "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 4 Operators reload\\Matrix.cs*",
-              "RelativeToolTip": "Matrix.cs*",
-              "ViewState": "AQIAACsAAAAAAAAAAAAUwDUAAAAtAAAA",
+              "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 4 Operators reload\\Matrix.cs",
+              "RelativeToolTip": "Matrix.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAACYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T14:36:32.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T14:36:32.05Z"
             },
             {
               "$type": "Document",
@@ -91,18 +90,17 @@
               "RelativeToolTip": "Employee.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAF8AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T10:59:46.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T10:59:46.888Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 4 Operators reload\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\HW 4 Operators reload\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAUwFcAAAAAAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAUwFsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T10:54:16.127Z",
               "EditorCaption": ""
