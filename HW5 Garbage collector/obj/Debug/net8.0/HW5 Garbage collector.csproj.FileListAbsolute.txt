@@ -1,0 +1,15 @@
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW5 Garbage collector\bin\Debug\net8.0\HW5 Garbage collector.exe
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW5 Garbage collector\bin\Debug\net8.0\HW5 Garbage collector.deps.json
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW5 Garbage collector\bin\Debug\net8.0\HW5 Garbage collector.runtimeconfig.json
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW5 Garbage collector\bin\Debug\net8.0\HW5 Garbage collector.dll
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW5 Garbage collector\bin\Debug\net8.0\HW5 Garbage collector.pdb
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW5 Garbage collector\obj\Debug\net8.0\HW5 Garbage collector.GeneratedMSBuildEditorConfig.editorconfig
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW5 Garbage collector\obj\Debug\net8.0\HW5 Garbage collector.AssemblyInfoInputs.cache
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW5 Garbage collector\obj\Debug\net8.0\HW5 Garbage collector.AssemblyInfo.cs
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW5 Garbage collector\obj\Debug\net8.0\HW5 Garbage collector.csproj.CoreCompileInputs.cache
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW5 Garbage collector\obj\Debug\net8.0\HW5 Garbage collector.sourcelink.json
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW5 Garbage collector\obj\Debug\net8.0\HW5 Garbage collector.dll
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW5 Garbage collector\obj\Debug\net8.0\refint\HW5 Garbage collector.dll
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW5 Garbage collector\obj\Debug\net8.0\HW5 Garbage collector.pdb
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW5 Garbage collector\obj\Debug\net8.0\HW5 Garbage collector.genruntimeconfig.cache
+E:\Обучение\C#\C# Hillel Pro 09.09.24\HW5 Garbage collector\obj\Debug\net8.0\ref\HW5 Garbage collector.dll
