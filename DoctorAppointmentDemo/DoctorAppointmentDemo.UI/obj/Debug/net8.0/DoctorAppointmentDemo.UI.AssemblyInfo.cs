@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DoctorAppointmentDemo.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8796d071ba8e1f3027431971e79982dc53ece0c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bcaebb5f2153934abd8f9eb858002725d6f2b75")]
 [assembly: System.Reflection.AssemblyProductAttribute("DoctorAppointmentDemo.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DoctorAppointmentDemo.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

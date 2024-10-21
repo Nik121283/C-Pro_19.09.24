@@ -1,22 +1,32 @@
-﻿using MyDoctorAppointment.Data.Configuration;
+﻿using DoctorAppointmentDemo.Data.Interfaces;
+using MyDoctorAppointment.Data.Configuration;
 using MyDoctorAppointment.Data.Interfaces;
 using MyDoctorAppointment.Domain.Entities;
 using Newtonsoft.Json;
+using System.Text;
 
 namespace MyDoctorAppointment.Data.Repositories
 {
     public abstract class GenericRepository<TSource> : IGenericRepository<TSource> where TSource : Auditable
     {
+        public abstract ISerializationService SerializationService { get; set; }
+
         public abstract string Path { get; set; }
 
         public abstract int LastId { get; set; }
 
+
         public TSource Create(TSource source)
         {
+            
             source.Id = ++LastId;
             source.CreatedAt = DateTime.Now;
 
-            File.WriteAllText(Path, JsonConvert.SerializeObject(GetAll().Append(source), Formatting.Indented));
+            var havingData = SerializationService.Deserialize<TSource>(Path);
+            StringBuilder sb = new StringBuilder(havingData.ToString());
+
+
+            SerializationService.Serialize<TSource>(Path, source);
             SaveLastId();
 
             return source;
@@ -69,6 +79,6 @@ namespace MyDoctorAppointment.Data.Repositories
 
         protected abstract void SaveLastId();
 
-        protected dynamic ReadFromAppSettings() => JsonConvert.DeserializeObject<dynamic>(File.ReadAllText(Constants.AppSettingsPath))!;
+        protected dynamic ReadFromAppSettings() => JsonConvert.DeserializeObject<dynamic>(File.ReadAllText(Constants.JsonAppSettingsPath))!;
     }
 }
