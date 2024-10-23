@@ -1,4 +1,5 @@
 ﻿using DoctorAppointmentDemo.Data.Interfaces;
+using DoctorAppointmentDemo.Data.Repositories;
 using MyDoctorAppointment.Data.Configuration;
 using MyDoctorAppointment.Data.Interfaces;
 using MyDoctorAppointment.Domain.Entities;
@@ -9,11 +10,19 @@ namespace MyDoctorAppointment.Data.Repositories
 {
     public abstract class GenericRepository<TSource> : IGenericRepository<TSource> where TSource : Auditable
     {
+        public string AppSetings { get; private set; }
+
         public abstract ISerializationService SerializationService { get; set; }
 
         public abstract string Path { get; set; }
 
         public abstract int LastId { get; set; }
+
+        protected GenericRepository(string appSetings, ISerializationService serializationService)
+        {
+            AppSetings = appSetings;
+            SerializationService = serializationService;  
+        }
 
 
         public TSource Create(TSource source)
@@ -79,6 +88,13 @@ namespace MyDoctorAppointment.Data.Repositories
 
         protected abstract void SaveLastId();
 
-        protected dynamic ReadFromAppSettings() => JsonConvert.DeserializeObject<dynamic>(File.ReadAllText(Constants.JsonAppSettingsPath))!;
+
+        protected Repository ReadFromAppSettings() 
+        {
+            return SerializationService.Deserialize<Repository>(AppSetings);
+        }
+
+
+        //protected dynamic ReadFromAppSettings() => JsonConvert.DeserializeObject<dynamic>(File.ReadAllText(Constants.JsonAppSettingsPath))!;
     }
 }

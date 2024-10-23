@@ -9,18 +9,18 @@ namespace MyDoctorAppointment.Data.Repositories
 {
     public class DoctorRepository : GenericRepository<Doctor>, IDoctorRepository
     {
-        private readonly ISerializationService serializationService;
+        public override ISerializationService SerializationService { get; set; }
 
         public override string Path { get; set; }
 
         public override int LastId { get; set; }
 
         //конструктор
-        public DoctorRepository(string appSetings, ISerializationService serializationService)
+        public DoctorRepository(string appSetings, ISerializationService serializationService) : base (appSetings, serializationService)
         {
-            this.serializationService = serializationService;
+            this.SerializationService = serializationService;
 
-            dynamic result = ReadFromAppSettings();
+            var result = ReadFromAppSettings();
 
             Path = result.Database.Doctors.Path;
             LastId = result.Database.Doctors.LastId;
@@ -33,10 +33,10 @@ namespace MyDoctorAppointment.Data.Repositories
 
         protected override void SaveLastId()
         {
-            dynamic result = ReadFromAppSettings();
+            var result = ReadFromAppSettings();
             result.Database.Doctors.LastId = LastId;
 
-            serializationService.Serialize<Doctor>(Path, result);
+            SerializationService.Serialize<Doctor>(AppSetings, result);
 
             //File.WriteAllText(Constants.JsonAppSettingsPath, result.ToString());
         }

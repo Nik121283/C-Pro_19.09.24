@@ -1,9 +1,11 @@
 ﻿using DoctorAppointmentDemo.Data.Interfaces;
+using MyDoctorAppointment.Data.Configuration;
 using MyDoctorAppointment.Service.Interfaces;
 using MyDoctorAppointment.Service.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,8 +16,6 @@ namespace DoctorAppointmentDemo.Service.Services
     {
         public static void Start()
         {
-            DoctorAppointment doctorAppointment = new DoctorAppointment();
-
             int selectedOptions = 0;
             string[] options = { "Выбрать XML формат", "Выбрать JSON формат", "Работать с базой Докторов", "Работать с базой Пациентов", "Работать с Записями", "Выход" };
             bool exit = false;
@@ -35,9 +35,10 @@ namespace DoctorAppointmentDemo.Service.Services
                     }
                     Console.WriteLine($"{i + 1}. {options[i]}");
                     Console.ResetColor();
+                }
 
-                    // читаем нажатие клавиши
-                    ConsoleKey key = Console.ReadKey(true).Key;
+                // читаем нажатие клавиши
+                ConsoleKey key = Console.ReadKey(true).Key;
 
                     switch (key)
                     {
@@ -56,16 +57,16 @@ namespace DoctorAppointmentDemo.Service.Services
                         case ConsoleKey.Enter:
                             switch (selectedOptions)
                             {
-                                case 0: DoctorAppointment doctorAppointment1 = new DoctorAppointment(); break;
-                                case 1:; break;
+                                case 0: DoctorAppointment doctorAppointment1 = new DoctorAppointment(Constants.XmlAppSettingsPath, new XmlDataSerializerService()); break;
+                                case 1: DoctorAppointment doctorAppointment2 = new DoctorAppointment(Constants.JsonAppSettingsPath, new JsonDataSerializerService()); break;
                                 case 2:; break;
                                 case 3:; break;
                                 case 4:; break;
-                                case 5:; break;
+                                case 5: exit = true; break;
                             }
                             break;
                     }
-                }
+                
             }
         }
 
@@ -78,7 +79,7 @@ namespace DoctorAppointmentDemo.Service.Services
 
         public DoctorAppointment(string appSettings, ISerializationService serializationService)
         {
-            _doctorService = new DoctorService();
+            _doctorService = new DoctorService(appSettings, serializationService);
         }
     }
 }
