@@ -17,8 +17,10 @@ namespace DoctorAppointmentDemo.Service.Services
         public static void Start()
         {
             int selectedOptions = 0;
-            string[] options = { "Выбрать XML формат", "Выбрать JSON формат", "Работать с базой Докторов", "Работать с базой Пациентов", "Работать с Записями", "Выход" };
+            string[] options = { "Выбрать XML формат", "Выбрать JSON формат", "Показать всех Докторов", "Работать с базой Пациентов", "Работать с Записями", "Выход" };
             bool exit = false;
+
+            DoctorAppointment doctorAppointment = null;
 
             while (!exit)
             {
@@ -57,16 +59,15 @@ namespace DoctorAppointmentDemo.Service.Services
                         case ConsoleKey.Enter:
                             switch (selectedOptions)
                             {
-                                case 0: DoctorAppointment doctorAppointment1 = new DoctorAppointment(Constants.XmlAppSettingsPath, new XmlDataSerializerService()); break;
-                                case 1: DoctorAppointment doctorAppointment2 = new DoctorAppointment(Constants.JsonAppSettingsPath, new JsonDataSerializerService()); break;
-                                case 2:; break;
+                                case 0: doctorAppointment = new DoctorAppointment(Constants.XmlAppSettingsPath, new XmlDataSerializerService()); break;
+                                case 1: doctorAppointment = new DoctorAppointment(Constants.JsonAppSettingsPath, new JsonDataSerializerService()); break;
+                                case 2: doctorAppointment.ShowDoctors(); break;
                                 case 3:; break;
                                 case 4:; break;
                                 case 5: exit = true; break;
                             }
                             break;
                     }
-                
             }
         }
 
@@ -75,11 +76,24 @@ namespace DoctorAppointmentDemo.Service.Services
 
     public class DoctorAppointment
     {
-        private readonly IDoctorService _doctorService;
+        public readonly IDoctorService _doctorService;
+        public readonly IPatientService _patientService;
 
         public DoctorAppointment(string appSettings, ISerializationService serializationService)
         {
             _doctorService = new DoctorService(appSettings, serializationService);
+            _patientService = new PatientService(appSettings, serializationService);
+        }
+
+        public void ShowDoctors()
+        {
+            var result = _doctorService.GetAll();
+
+            foreach ( var item in result )
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadLine();
         }
     }
 }

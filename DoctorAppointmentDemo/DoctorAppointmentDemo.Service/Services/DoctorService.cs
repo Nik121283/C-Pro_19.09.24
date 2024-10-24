@@ -15,7 +15,7 @@ namespace MyDoctorAppointment.Service.Services
             _doctorRepository = new DoctorRepository(appSettings, serializationService);
         }
 
-        public Doctor Create(Doctor doctor)
+        public bool Create(Doctor doctor)
         {
             return _doctorRepository.Create(doctor);
         }
@@ -35,7 +35,7 @@ namespace MyDoctorAppointment.Service.Services
             return _doctorRepository.GetAll();
         }
 
-        public Doctor Update(int id, Doctor doctor)
+        public bool Update(int id, Doctor doctor)
         {
             return _doctorRepository.Update(id, doctor);
         }

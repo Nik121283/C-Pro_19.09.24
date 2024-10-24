@@ -2,12 +2,13 @@
 using MyDoctorAppointment.Data.Interfaces;
 using MyDoctorAppointment.Domain.Entities;
 using Newtonsoft.Json.Serialization;
+using MyDoctorAppointment.Data.Interfaces;
 using DoctorAppointmentDemo.Data.Interfaces;
 using MyDoctorAppointment.Domain.Enums;
 
 namespace MyDoctorAppointment.Data.Repositories
 {
-    public class DoctorRepository : GenericRepository<Doctor>, IDoctorRepository
+    public class PatientRepository : GenericRepository<Patient>, IPatientRepository
     {
         public override ISerializationService SerializationService { get; set; }
 
@@ -16,17 +17,17 @@ namespace MyDoctorAppointment.Data.Repositories
         public override int LastId { get; set; }
 
         //конструктор
-        public DoctorRepository(string appSetings, ISerializationService serializationService) : base (appSetings, serializationService)
+        public PatientRepository(string appSetings, ISerializationService serializationService) : base (appSetings, serializationService)
         {
             this.SerializationService = serializationService;
 
             var result = ReadFromAppSettings();
 
-            Path = result.Database.Doctors.Path;
-            LastId = result.Database.Doctors.LastId;
+            Path = result.Database.Patients.Path;
+            LastId = result.Database.Patients.LastId;
         }
 
-        public override void ShowInfo(Doctor doctor)
+        public override void ShowInfo(Patient patient)
         {
             var result = GetAll();
 
@@ -46,41 +47,46 @@ namespace MyDoctorAppointment.Data.Repositories
             //File.WriteAllText(Constants.JsonAppSettingsPath, result.ToString());
         }
 
-        public bool IncreaseSalary(int id, decimal addToSalary)
+        public bool ChangeIllnessType(int id, IllnessTypes newIllnessType)
         {
-            var doctor = base.GetById(id);
+            var patient = base.GetById(id);
 
-            if (doctor != null)
+            if (patient != null)
             {
-                doctor.Salary += addToSalary;
+                patient.IllnessType = newIllnessType;
 
-                base.Update(id, doctor);
+                base.Update(id, patient);
 
                 return true;
             }
-
-            return false;
+            else
+            {
+                return false;
+            }
+            
         }
 
-        public bool DecreaseSalary(int id, decimal addToSalary)
+        public bool ChangeAddress(int id, string newAddress)
         {
-            var doctor = base.GetById(id);
+            var patient = base.GetById(id);
 
-            if (doctor != null)
+            if (patient != null)
             {
-                doctor.Salary -= addToSalary;
+                patient.Address = newAddress;
 
-                base.Update(id, doctor);
+                base.Update(id, patient);
 
                 return true;
             }
-
-            return false;
+            else
+            {
+                return false;
+            }
         }
 
-        public IEnumerable<Doctor> GetAllbyDoctorTypes(DoctorTypes doctorTypes)
+        public IEnumerable<Patient> GetAllbyIllnessTypes(IllnessTypes illnessTypes)
         {
-            return GetAll().Where(x => x.DoctorType == doctorTypes).ToList();
+            return GetAll().Where(x => x.IllnessType == illnessTypes).ToList();
         }
     }
 }

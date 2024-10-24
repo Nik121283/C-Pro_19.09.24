@@ -4,7 +4,7 @@ namespace MyDoctorAppointment.Service.Interfaces
 {
     public interface IDoctorService
     {
-        Doctor Create(Doctor doctor);
+        bool Create(Doctor doctor);
 
         IEnumerable<Doctor> GetAll();
 
@@ -12,6 +12,6 @@ namespace MyDoctorAppointment.Service.Interfaces
 
         bool Delete(int id);
 
-        Doctor Update(int id, Doctor doctor);
+        bool Update(int id, Doctor doctor);
     }
 }

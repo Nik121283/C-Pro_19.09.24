@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{65318ABD-B0A4-4BD1-AF1E-39AA2C9B9AFE}|DoctorAppointmentDemo.Domain\\DoctorAppointmentDemo.Domain.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\doctorappointmentdemo\\doctorappointmentdemo.domain\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65318ABD-B0A4-4BD1-AF1E-39AA2C9B9AFE}|DoctorAppointmentDemo.Domain\\DoctorAppointmentDemo.Domain.csproj|solutionrelative:doctorappointmentdemo.domain\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65318ABD-B0A4-4BD1-AF1E-39AA2C9B9AFE}|DoctorAppointmentDemo.Domain\\DoctorAppointmentDemo.Domain.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\doctorappointmentdemo\\doctorappointmentdemo.domain\\entities\\userbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65318ABD-B0A4-4BD1-AF1E-39AA2C9B9AFE}|DoctorAppointmentDemo.Domain\\DoctorAppointmentDemo.Domain.csproj|solutionrelative:doctorappointmentdemo.domain\\entities\\userbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D025BC1F-DEC7-4B57-817B-B4DA841506CF}|DoctorAppointmentDemo.Service\\DoctorAppointmentDemo.Service.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\doctorappointmentdemo\\doctorappointmentdemo.service\\services\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D025BC1F-DEC7-4B57-817B-B4DA841506CF}|DoctorAppointmentDemo.Service\\DoctorAppointmentDemo.Service.csproj|solutionrelative:doctorappointmentdemo.service\\services\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9BB16C98-A9C2-44A6-A7BE-69CA8E603664}|DoctorAppointmentDemo.Data\\DoctorAppointmentDemo.Data.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\doctorappointmentdemo\\doctorappointmentdemo.data\\repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BB16C98-A9C2-44A6-A7BE-69CA8E603664}|DoctorAppointmentDemo.Data\\DoctorAppointmentDemo.Data.csproj|solutionrelative:doctorappointmentdemo.data\\repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,36 +23,8 @@
       "RelativeMoniker": "D:0:0:{9BB16C98-A9C2-44A6-A7BE-69CA8E603664}|DoctorAppointmentDemo.Data\\DoctorAppointmentDemo.Data.csproj|solutionrelative:doctorappointmentdemo.data\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BB16C98-A9C2-44A6-A7BE-69CA8E603664}|DoctorAppointmentDemo.Data\\DoctorAppointmentDemo.Data.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\doctorappointmentdemo\\doctorappointmentdemo.data\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BB16C98-A9C2-44A6-A7BE-69CA8E603664}|DoctorAppointmentDemo.Data\\DoctorAppointmentDemo.Data.csproj|solutionrelative:doctorappointmentdemo.data\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65318ABD-B0A4-4BD1-AF1E-39AA2C9B9AFE}|DoctorAppointmentDemo.Domain\\DoctorAppointmentDemo.Domain.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\doctorappointmentdemo\\doctorappointmentdemo.domain\\entities\\userbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65318ABD-B0A4-4BD1-AF1E-39AA2C9B9AFE}|DoctorAppointmentDemo.Domain\\DoctorAppointmentDemo.Domain.csproj|solutionrelative:doctorappointmentdemo.domain\\entities\\userbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D025BC1F-DEC7-4B57-817B-B4DA841506CF}|DoctorAppointmentDemo.Service\\DoctorAppointmentDemo.Service.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\doctorappointmentdemo\\doctorappointmentdemo.service\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D025BC1F-DEC7-4B57-817B-B4DA841506CF}|DoctorAppointmentDemo.Service\\DoctorAppointmentDemo.Service.csproj|solutionrelative:doctorappointmentdemo.service\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BB16C98-A9C2-44A6-A7BE-69CA8E603664}|DoctorAppointmentDemo.Data\\DoctorAppointmentDemo.Data.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\doctorappointmentdemo\\doctorappointmentdemo.data\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BB16C98-A9C2-44A6-A7BE-69CA8E603664}|DoctorAppointmentDemo.Data\\DoctorAppointmentDemo.Data.csproj|solutionrelative:doctorappointmentdemo.data\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BB16C98-A9C2-44A6-A7BE-69CA8E603664}|DoctorAppointmentDemo.Data\\DoctorAppointmentDemo.Data.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\doctorappointmentdemo\\doctorappointmentdemo.data\\interfaces\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BB16C98-A9C2-44A6-A7BE-69CA8E603664}|DoctorAppointmentDemo.Data\\DoctorAppointmentDemo.Data.csproj|solutionrelative:doctorappointmentdemo.data\\interfaces\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AF8D59DC-3A97-4023-BBC5-11689741EABD}|DoctorAppointmentDemo.UI\\DoctorAppointmentDemo.UI.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\doctorappointmentdemo\\doctorappointmentdemo.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF8D59DC-3A97-4023-BBC5-11689741EABD}|DoctorAppointmentDemo.UI\\DoctorAppointmentDemo.UI.csproj|solutionrelative:doctorappointmentdemo.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BB16C98-A9C2-44A6-A7BE-69CA8E603664}|DoctorAppointmentDemo.Data\\DoctorAppointmentDemo.Data.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\doctorappointmentdemo\\doctorappointmentdemo.data\\configuration\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BB16C98-A9C2-44A6-A7BE-69CA8E603664}|DoctorAppointmentDemo.Data\\DoctorAppointmentDemo.Data.csproj|solutionrelative:doctorappointmentdemo.data\\configuration\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BB16C98-A9C2-44A6-A7BE-69CA8E603664}|DoctorAppointmentDemo.Data\\DoctorAppointmentDemo.Data.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\doctorappointmentdemo\\doctorappointmentdemo.data\\interfaces\\iserializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BB16C98-A9C2-44A6-A7BE-69CA8E603664}|DoctorAppointmentDemo.Data\\DoctorAppointmentDemo.Data.csproj|solutionrelative:doctorappointmentdemo.data\\interfaces\\iserializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65318ABD-B0A4-4BD1-AF1E-39AA2C9B9AFE}|DoctorAppointmentDemo.Domain\\DoctorAppointmentDemo.Domain.csproj|e:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\c# hillel pro 09.09.24\\doctorappointmentdemo\\doctorappointmentdemo.domain\\enums\\doctortypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,8 +50,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Domain\\Entities\\Doctor.cs",
+              "RelativeDocumentMoniker": "DoctorAppointmentDemo.Domain\\Entities\\Doctor.cs",
+              "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Domain\\Entities\\Doctor.cs*",
+              "RelativeToolTip": "DoctorAppointmentDemo.Domain\\Entities\\Doctor.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T12:54:53.142Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -82,110 +79,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.UI\\Program.cs",
-              "RelativeDocumentMoniker": "DoctorAppointmentDemo.UI\\Program.cs",
-              "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.UI\\Program.cs",
-              "RelativeToolTip": "DoctorAppointmentDemo.UI\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAADEAAAAPAAAA",
+              "DocumentIndex": 2,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Service\\Services\\Menu.cs",
+              "RelativeDocumentMoniker": "DoctorAppointmentDemo.Service\\Services\\Menu.cs",
+              "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Service\\Services\\Menu.cs",
+              "RelativeToolTip": "DoctorAppointmentDemo.Service\\Services\\Menu.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAqwF4AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T13:19:30.602Z",
+              "WhenOpened": "2024-10-24T12:15:02.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DoctorService.cs",
-              "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Service\\Services\\DoctorService.cs",
-              "RelativeDocumentMoniker": "DoctorAppointmentDemo.Service\\Services\\DoctorService.cs",
-              "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Service\\Services\\DoctorService.cs",
-              "RelativeToolTip": "DoctorAppointmentDemo.Service\\Services\\DoctorService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T08:30:29.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DoctorRepository.cs",
               "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\Repositories\\DoctorRepository.cs",
               "RelativeDocumentMoniker": "DoctorAppointmentDemo.Data\\Repositories\\DoctorRepository.cs",
               "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\Repositories\\DoctorRepository.cs",
               "RelativeToolTip": "DoctorAppointmentDemo.Data\\Repositories\\DoctorRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAvAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAIAwwBIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T12:02:20.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\Repositories\\Repository.cs",
-              "RelativeDocumentMoniker": "DoctorAppointmentDemo.Data\\Repositories\\Repository.cs",
-              "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\Repositories\\Repository.cs",
-              "RelativeToolTip": "DoctorAppointmentDemo.Data\\Repositories\\Repository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T14:20:10.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "DoctorAppointmentDemo.Data\\Repositories\\GenericRepository.cs",
               "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\Repositories\\GenericRepository.cs",
               "RelativeToolTip": "DoctorAppointmentDemo.Data\\Repositories\\GenericRepository.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAAwAwAAAAwAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAuwCMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T08:30:29.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\Interfaces\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "DoctorAppointmentDemo.Data\\Interfaces\\IGenericRepository.cs",
-              "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\Interfaces\\IGenericRepository.cs",
-              "RelativeToolTip": "DoctorAppointmentDemo.Data\\Interfaces\\IGenericRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T08:30:29.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Constants.cs",
-              "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\Configuration\\Constants.cs",
-              "RelativeDocumentMoniker": "DoctorAppointmentDemo.Data\\Configuration\\Constants.cs",
-              "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\Configuration\\Constants.cs",
-              "RelativeToolTip": "DoctorAppointmentDemo.Data\\Configuration\\Constants.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T11:54:34.199Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IDoctorRepository.cs",
-              "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\Interfaces\\IDoctorRepository.cs",
-              "RelativeDocumentMoniker": "DoctorAppointmentDemo.Data\\Interfaces\\IDoctorRepository.cs",
-              "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\Interfaces\\IDoctorRepository.cs",
-              "RelativeToolTip": "DoctorAppointmentDemo.Data\\Interfaces\\IDoctorRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T11:42:41.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "Patient.cs",
               "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Domain\\Entities\\Patient.cs",
               "RelativeDocumentMoniker": "DoctorAppointmentDemo.Domain\\Entities\\Patient.cs",
@@ -197,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "DoctorTypes.cs",
               "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Domain\\Enums\\DoctorTypes.cs",
               "RelativeDocumentMoniker": "DoctorAppointmentDemo.Domain\\Enums\\DoctorTypes.cs",
@@ -209,7 +142,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.UI\\Program.cs",
+              "RelativeDocumentMoniker": "DoctorAppointmentDemo.UI\\Program.cs",
+              "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.UI\\Program.cs",
+              "RelativeToolTip": "DoctorAppointmentDemo.UI\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T13:19:30.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UserBase.cs",
               "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Domain\\Entities\\UserBase.cs",
               "RelativeDocumentMoniker": "DoctorAppointmentDemo.Domain\\Entities\\UserBase.cs",
@@ -222,19 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ISerializationService.cs",
-              "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\Interfaces\\ISerializationService.cs",
-              "RelativeDocumentMoniker": "DoctorAppointmentDemo.Data\\Interfaces\\ISerializationService.cs",
-              "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\Interfaces\\ISerializationService.cs",
-              "RelativeToolTip": "DoctorAppointmentDemo.Data\\Interfaces\\ISerializationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T12:45:04.785Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "IllnessTypes.cs",
               "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Domain\\Enums\\IllnessTypes.cs",
               "RelativeDocumentMoniker": "DoctorAppointmentDemo.Domain\\Enums\\IllnessTypes.cs",
@@ -246,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "DoctorAppointmentDemo.Service.csproj",
               "DocumentMoniker": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Service\\DoctorAppointmentDemo.Service.csproj",
               "RelativeDocumentMoniker": "DoctorAppointmentDemo.Service\\DoctorAppointmentDemo.Service.csproj",

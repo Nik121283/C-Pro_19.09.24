@@ -25,20 +25,19 @@ namespace MyDoctorAppointment.Data.Repositories
         }
 
 
-        public TSource Create(TSource source)
+        public bool Create(TSource source)
         {
             
             source.Id = ++LastId;
             source.CreatedAt = DateTime.Now;
 
-            var havingData = SerializationService.Deserialize<TSource>(Path);
-            StringBuilder sb = new StringBuilder(havingData.ToString());
+            var havingData = GetAll();
+            var newData = havingData.Append(source).ToList();
 
-
-            SerializationService.Serialize<TSource>(Path, source);
+            SerializationService.Serialize(Path, newData);
             SaveLastId();
 
-            return source;
+            return true;
         }
 
         public bool Delete(int id)
@@ -46,11 +45,12 @@ namespace MyDoctorAppointment.Data.Repositories
             if (GetById(id) is null)
                 return false;
 
-            File.WriteAllText(Path, JsonConvert.SerializeObject(GetAll().Where(x => x.Id != id), Formatting.Indented));
-
+            var havingData = GetAll();
+            var newData = havingData.Where(x => x.Id != id).ToList();
             return true;
         }
 
+        // возвращаем лист типа Т, если файла нет, создаем
         public IEnumerable<TSource> GetAll()
         {
             if (!File.Exists(Path))
@@ -58,30 +58,27 @@ namespace MyDoctorAppointment.Data.Repositories
                 File.WriteAllText(Path, "[]");
             }
 
-            var json = File.ReadAllText(Path);
-
-            if (string.IsNullOrWhiteSpace(json))
-            {
-                File.WriteAllText(Path, "[]");
-                json = "[]";
-            }
-
-            return JsonConvert.DeserializeObject<List<TSource>>(json)!;
+            return SerializationService.Deserialize<IEnumerable<TSource>>(Path);
         }
+
+
 
         public TSource? GetById(int id)
         {
             return GetAll().FirstOrDefault(x => x.Id == id);
         }
 
-        public TSource Update(int id, TSource source)
+        public bool Update(int id, TSource source)
         {
+
             source.UpdatedAt = DateTime.Now;
             source.Id = id;
 
-            File.WriteAllText(Path, JsonConvert.SerializeObject(GetAll().Select(x => x.Id == id ? source : x), Formatting.Indented));
+            var havingData = GetAll();
 
-            return source;
+            havingData.Select(x => x.Id == id ? source : x) ;
+
+            return true;
         }
 
         public abstract void ShowInfo(TSource source);

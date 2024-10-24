@@ -9,5 +9,11 @@ namespace MyDoctorAppointment.Domain.Entities
         public string? AdditionalInfo { get; set; }
 
         public string? Address { get; set; }
+
+
+        public override string ToString()
+        {
+            return $"{base.Name} {base.Surname} Болезнь:{IllnessType} Адресс:{Address}";
+        }
     }
 }
