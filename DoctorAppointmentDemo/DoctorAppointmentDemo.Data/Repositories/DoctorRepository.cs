@@ -28,12 +28,11 @@ namespace MyDoctorAppointment.Data.Repositories
 
         public override void ShowInfo(Doctor doctor)
         {
-            var result = GetAll();
-
-            foreach (var item in result)
+            if (doctor != null)
             {
-                Console.WriteLine(item);
+                Console.WriteLine(doctor);
             }
+                
         }
 
         protected override void SaveLastId()

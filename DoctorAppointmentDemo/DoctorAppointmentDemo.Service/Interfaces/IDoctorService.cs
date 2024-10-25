@@ -1,17 +1,10 @@
-﻿using MyDoctorAppointment.Domain.Entities;
+﻿using DoctorAppointmentDemo.Service.Interfaces;
+using MyDoctorAppointment.Domain.Entities;
 
 namespace MyDoctorAppointment.Service.Interfaces
 {
-    public interface IDoctorService
+    public interface IDoctorService : IServiceInterface<Doctor>
     {
-        bool Create(Doctor doctor);
 
-        IEnumerable<Doctor> GetAll();
-
-        Doctor? Get(int id);
-
-        bool Delete(int id);
-
-        bool Update(int id, Doctor doctor);
     }
 }

@@ -17,7 +17,7 @@ namespace DoctorAppointmentDemo.Service.Services
         public static void Start()
         {
             int selectedOptions = 0;
-            string[] options = { "Выбрать XML формат", "Выбрать JSON формат", "Показать всех Докторов", "Работать с базой Пациентов", "Работать с Записями", "Выход" };
+            string[] options = { "Показать всех докторов. XML база", "Показать всех докторов. Json базат", "Добавить доктора. XML база", "Работать с базой Пациентов", "Работать с Записями", "Выход" };
             bool exit = false;
 
             DoctorAppointment doctorAppointment = null;
@@ -59,9 +59,19 @@ namespace DoctorAppointmentDemo.Service.Services
                         case ConsoleKey.Enter:
                             switch (selectedOptions)
                             {
-                                case 0: doctorAppointment = new DoctorAppointment(Constants.XmlAppSettingsPath, new XmlDataSerializerService()); break;
-                                case 1: doctorAppointment = new DoctorAppointment(Constants.JsonAppSettingsPath, new JsonDataSerializerService()); break;
-                                case 2: doctorAppointment.ShowDoctors(); break;
+                                case 0: 
+                                doctorAppointment = new DoctorAppointment(Constants.XmlAppSettingsPath, new XmlDataSerializerService());
+                                doctorAppointment.ShowDoctors();
+                                break;
+
+                                case 1: doctorAppointment = new DoctorAppointment(Constants.JsonAppSettingsPath, new JsonDataSerializerService()); 
+                                doctorAppointment.ShowDoctors();
+                                break;
+
+                                case 2:
+                                doctorAppointment = new DoctorAppointment(Constants.XmlAppSettingsPath, new XmlDataSerializerService());
+                                doctorAppointment._doctorService.Create();
+                                break;
                                 case 3:; break;
                                 case 4:; break;
                                 case 5: exit = true; break;
@@ -78,11 +88,14 @@ namespace DoctorAppointmentDemo.Service.Services
     {
         public readonly IDoctorService _doctorService;
         public readonly IPatientService _patientService;
+        public readonly IAppointmentService _iAppointmentService;
+
 
         public DoctorAppointment(string appSettings, ISerializationService serializationService)
         {
             _doctorService = new DoctorService(appSettings, serializationService);
             _patientService = new PatientService(appSettings, serializationService);
+            _iAppointmentService = new AppointmentService(appSettings, serializationService);
         }
 
         public void ShowDoctors()

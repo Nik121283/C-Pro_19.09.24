@@ -9,5 +9,13 @@
         public string? Phone { get; set; }
 
         public string? Email { get; set; }
+
+        protected UserBase(string name, string surname, string phone, string email)
+        {
+            Name = name;
+            Surname = surname;
+            Phone = phone;
+            Email = email;
+        }
     }
 }

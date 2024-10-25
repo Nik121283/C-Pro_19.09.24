@@ -10,6 +10,13 @@ namespace MyDoctorAppointment.Domain.Entities
 
         public decimal Salary { get; set; }
 
+        public Doctor(string name, string surname, string phone, string email, DoctorTypes doctorTypes, byte expirience, decimal salary) : base(name, surname, phone, email)
+        {
+            DoctorType = doctorTypes;
+            Experience = expirience;
+            Salary = salary;
+        }
+
 
         public override string ToString()
         {

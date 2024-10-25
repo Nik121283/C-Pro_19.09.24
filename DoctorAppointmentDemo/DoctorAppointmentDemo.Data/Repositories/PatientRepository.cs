@@ -5,6 +5,7 @@ using Newtonsoft.Json.Serialization;
 using MyDoctorAppointment.Data.Interfaces;
 using DoctorAppointmentDemo.Data.Interfaces;
 using MyDoctorAppointment.Domain.Enums;
+using System.Numerics;
 
 namespace MyDoctorAppointment.Data.Repositories
 {
@@ -29,11 +30,9 @@ namespace MyDoctorAppointment.Data.Repositories
 
         public override void ShowInfo(Patient patient)
         {
-            var result = GetAll();
-
-            foreach (var item in result)
+            if (patient != null)
             {
-                Console.WriteLine(item);
+                Console.WriteLine(patient);
             }
         }
 

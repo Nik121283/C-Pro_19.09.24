@@ -10,6 +10,15 @@ namespace MyDoctorAppointment.Domain.Entities
 
         public string? Address { get; set; }
 
+        public Patient(string name, string surname, string phone, string email, IllnessTypes illnessTypes, string additionalInfo, string address) : base ( name, surname, phone, email)
+        {
+            IllnessType = illnessTypes;
+
+            AdditionalInfo = additionalInfo;
+
+            Address = address;
+        }
+
 
         public override string ToString()
         {
