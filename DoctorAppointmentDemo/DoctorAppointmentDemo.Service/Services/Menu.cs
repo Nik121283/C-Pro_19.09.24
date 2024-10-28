@@ -17,7 +17,13 @@ namespace DoctorAppointmentDemo.Service.Services
         public static void Start()
         {
             int selectedOptions = 0;
-            string[] options = { "Показать всех докторов. XML база", "Показать всех докторов. Json базат", "Добавить доктора. XML база", "Работать с базой Пациентов", "Работать с Записями", "Выход" };
+            string[] options = { "Показать всех докторов. XML база", 
+                                 "Показать всех докторов. Json база", 
+                                 "Добавить доктора. XML база", 
+                                 "Добавить доктора. Json база",
+                                 "Удалить доктора. XML база",
+                                 "Удалить доктора. JSON база",
+                                 "Выход" };
             bool exit = false;
 
             DoctorAppointment doctorAppointment = null;
@@ -41,6 +47,13 @@ namespace DoctorAppointmentDemo.Service.Services
 
                 // читаем нажатие клавиши
                 ConsoleKey key = Console.ReadKey(true).Key;
+                //"Показать всех докторов. XML база",   0
+                //"Показать всех докторов. Json база",  1
+                // "Добавить доктора. XML база",        2
+                //  "Добавить доктора. Json база",      3
+                //  "Удалить доктора. XML база",        4
+                // "Удалить доктора. JSON база",        5
+                // "Выход"                              6
 
                     switch (key)
                     {
@@ -70,11 +83,25 @@ namespace DoctorAppointmentDemo.Service.Services
 
                                 case 2:
                                 doctorAppointment = new DoctorAppointment(Constants.XmlAppSettingsPath, new XmlDataSerializerService());
-                                doctorAppointment._doctorService.Create();
+                                doctorAppointment._doctorService.Create(doctorAppointment._doctorService.DoctorsEnterFromConsole());
                                 break;
-                                case 3:; break;
-                                case 4:; break;
-                                case 5: exit = true; break;
+
+                                case 3:
+                                doctorAppointment = new DoctorAppointment(Constants.JsonAppSettingsPath, new JsonDataSerializerService());
+                                doctorAppointment._doctorService.Create(doctorAppointment._doctorService.DoctorsEnterFromConsole()); 
+                                break;
+
+                                case 4:
+                                doctorAppointment = new DoctorAppointment(Constants.JsonAppSettingsPath, new JsonDataSerializerService());
+                                doctorAppointment._doctorService.Delete(doctorAppointment._doctorService.GetId());
+                                ; break;
+
+                                case 5:
+                                doctorAppointment = new DoctorAppointment(Constants.XmlAppSettingsPath, new XmlDataSerializerService());
+                                doctorAppointment._doctorService.Delete(doctorAppointment._doctorService.GetId());
+                                ; break;
+
+                                case 6: exit = true; break;
                             }
                             break;
                     }

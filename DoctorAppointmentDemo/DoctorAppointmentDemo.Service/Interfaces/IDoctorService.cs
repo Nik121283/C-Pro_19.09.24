@@ -5,6 +5,6 @@ namespace MyDoctorAppointment.Service.Interfaces
 {
     public interface IDoctorService : IServiceInterface<Doctor>
     {
-
+        public Doctor DoctorsEnterFromConsole();
     }
 }

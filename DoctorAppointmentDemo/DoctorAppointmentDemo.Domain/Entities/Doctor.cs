@@ -17,6 +17,11 @@ namespace MyDoctorAppointment.Domain.Entities
             Salary = salary;
         }
 
+        public Doctor()
+        {
+            
+        }
+
 
         public override string ToString()
         {

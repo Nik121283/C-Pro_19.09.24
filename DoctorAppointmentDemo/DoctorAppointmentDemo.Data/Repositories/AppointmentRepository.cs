@@ -22,8 +22,8 @@ namespace MyDoctorAppointment.Data.Repositories
 
             var result = ReadFromAppSettings();
 
-            Path = result.Database.Doctors.Path;
-            LastId = result.Database.Doctors.LastId;
+            Path = result.Database.Appointments.Path;
+            LastId = result.Database.Appointments.LastId;
         }
 
         public override void ShowInfo(Appointment appointment)

@@ -1,4 +1,6 @@
 ﻿using MyDoctorAppointment.Domain.Enums;
+using System.Numerics;
+using System.Xml.Linq;
 
 namespace MyDoctorAppointment.Domain.Entities
 {
@@ -15,10 +17,12 @@ namespace MyDoctorAppointment.Domain.Entities
             IllnessType = illnessTypes;
 
             AdditionalInfo = additionalInfo;
-
             Address = address;
         }
-
+        public Patient()
+        {
+            
+        }
 
         public override string ToString()
         {

@@ -55,10 +55,10 @@ namespace MyDoctorAppointment.Data.Repositories
         {
             if (!File.Exists(Path))
             {
-                File.WriteAllText(Path, "[]");
+                return new List<TSource>();
             }
 
-            return SerializationService.Deserialize<IEnumerable<TSource>>(Path);
+            return SerializationService.Deserialize<List<TSource>>(Path);
         }
 
 
@@ -88,7 +88,26 @@ namespace MyDoctorAppointment.Data.Repositories
 
         protected Repository ReadFromAppSettings() 
         {
-            return SerializationService.Deserialize<Repository>(AppSetings);
+
+            try
+            {
+                return SerializationService.Deserialize<Repository>(AppSetings);
+            }
+            catch (Exception ex)
+            {
+                Repository repository = new Repository(
+                    0,
+                    "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\doctors.xml",
+                    0,
+                    "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\appointments.xml",
+                    0,
+                    "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\patients.xml");
+
+                SerializationService.Serialize<Repository>(AppSetings, repository);
+                return repository;
+            }
+            
+            
         }
 
 

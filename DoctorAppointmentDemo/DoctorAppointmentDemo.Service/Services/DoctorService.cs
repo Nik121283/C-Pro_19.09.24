@@ -17,7 +17,13 @@ namespace MyDoctorAppointment.Service.Services
             _doctorRepository = new DoctorRepository(appSettings, serializationService);
         }
 
-        public bool Create()
+        public bool Create(Doctor newDoctor)
+        {
+            return _doctorRepository.Create(newDoctor);
+        }
+
+
+        public Doctor DoctorsEnterFromConsole()
         {
             Console.WriteLine("Введите имя доктора");
             string name = Console.ReadLine();
@@ -74,9 +80,7 @@ namespace MyDoctorAppointment.Service.Services
 
             Doctor newDoctor = new Doctor(name, surname, phone, email, typeOfDoctor, expirienceResult, salaryResult);
 
-
-
-            return _doctorRepository.Create(newDoctor);
+            return newDoctor;
         }
 
         public bool Delete(int id)
@@ -98,5 +102,6 @@ namespace MyDoctorAppointment.Service.Services
         {
             return _doctorRepository.Update(id, doctor);
         }
+
     }
 }

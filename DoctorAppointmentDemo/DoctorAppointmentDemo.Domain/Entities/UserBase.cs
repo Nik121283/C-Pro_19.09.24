@@ -17,5 +17,9 @@
             Phone = phone;
             Email = email;
         }
+        protected UserBase()
+        {
+            
+        }
     }
 }

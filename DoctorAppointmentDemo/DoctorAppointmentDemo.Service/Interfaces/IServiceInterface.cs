@@ -9,7 +9,7 @@ namespace DoctorAppointmentDemo.Service.Interfaces
 {
     public interface IServiceInterface<T>
     {
-        bool Create();
+        bool Create(T source);
 
         IEnumerable<T> GetAll();
 
@@ -18,6 +18,19 @@ namespace DoctorAppointmentDemo.Service.Interfaces
         bool Delete(int id);
 
         bool Update(int id, T newEntity);
+
+        int GetId()
+        {
+            int result;
+
+            Console.WriteLine("Введите Id");
+            if (!int.TryParse(Console.ReadLine(), out result) || result <0)
+            {
+                Console.WriteLine("Введено недопустимое значение");
+            }
+
+            return result;
+        }
 
     }
 }
