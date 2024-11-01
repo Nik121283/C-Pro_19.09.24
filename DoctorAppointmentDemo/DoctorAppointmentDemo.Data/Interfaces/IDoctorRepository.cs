@@ -6,11 +6,11 @@ namespace MyDoctorAppointment.Data.Interfaces
 {
     public interface IDoctorRepository : IGenericRepository<Doctor>
     {
-        bool IncreaseSalary(int id, decimal addToSalary);
+        public bool IncreaseSalary(int id, decimal addToSalary);
 
-        bool DecreaseSalary(int id, decimal changesToSalary);
+        public bool DecreaseSalary(int id, decimal changesToSalary);
 
-        IEnumerable<Doctor> GetAllbyDoctorTypes(DoctorTypes doctorTypes);
+        public List<Doctor> GetAllbyDoctorTypes(DoctorTypes doctorTypes);
 
     }
 }

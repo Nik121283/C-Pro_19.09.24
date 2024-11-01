@@ -92,12 +92,12 @@ namespace DoctorAppointmentDemo.Service.Services
                                 break;
 
                                 case 4:
-                                doctorAppointment = new DoctorAppointment(Constants.JsonAppSettingsPath, new JsonDataSerializerService());
+                                doctorAppointment = new DoctorAppointment(Constants.XmlAppSettingsPath, new XmlDataSerializerService());
                                 doctorAppointment._doctorService.Delete(doctorAppointment._doctorService.GetId());
                                 ; break;
 
                                 case 5:
-                                doctorAppointment = new DoctorAppointment(Constants.XmlAppSettingsPath, new XmlDataSerializerService());
+                                doctorAppointment = new DoctorAppointment(Constants.JsonAppSettingsPath, new JsonDataSerializerService());
                                 doctorAppointment._doctorService.Delete(doctorAppointment._doctorService.GetId());
                                 ; break;
 

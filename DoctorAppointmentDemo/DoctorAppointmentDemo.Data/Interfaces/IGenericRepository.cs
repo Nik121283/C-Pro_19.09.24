@@ -5,14 +5,14 @@ namespace MyDoctorAppointment.Data.Interfaces
     public interface IGenericRepository<TSource> where TSource : Auditable
     {
 
-        bool Create(TSource source);
+        public bool Create(TSource source);
 
-        TSource? GetById(int id);
+        public TSource? GetById(int id);
 
-        bool Update(int id, TSource source);
+        public bool Update(int id, TSource source);
 
-        IEnumerable<TSource> GetAll();
+        public List<TSource> GetAll();
 
-        bool Delete(int id);
+        public bool Delete(int id);
     }
 }

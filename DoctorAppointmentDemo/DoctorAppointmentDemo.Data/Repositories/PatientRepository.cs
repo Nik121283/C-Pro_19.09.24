@@ -83,7 +83,7 @@ namespace MyDoctorAppointment.Data.Repositories
             }
         }
 
-        public IEnumerable<Patient> GetAllbyIllnessTypes(IllnessTypes illnessTypes)
+        public List<Patient> GetAllbyIllnessTypes(IllnessTypes illnessTypes)
         {
             return GetAll().Where(x => x.IllnessType == illnessTypes).ToList();
         }

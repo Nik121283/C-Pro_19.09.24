@@ -10,6 +10,6 @@ namespace MyDoctorAppointment.Data.Interfaces
 
         bool ChangeAddress(int id, string newAddress);
 
-        IEnumerable<Patient> GetAllbyIllnessTypes(IllnessTypes illnessTypes);
+        List<Patient> GetAllbyIllnessTypes(IllnessTypes illnessTypes);
     }
 }

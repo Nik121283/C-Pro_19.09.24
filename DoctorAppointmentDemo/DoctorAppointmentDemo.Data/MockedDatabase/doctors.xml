@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfDoctor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Doctor>
-    <Id>1</Id>
-    <CreatedAt>2024-10-28T17:44:16.4122241+02:00</CreatedAt>
+    <Id>4</Id>
+    <CreatedAt>2024-11-01T14:09:22.6090002+02:00</CreatedAt>
     <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
-    <Name>Nikolai</Name>
-    <Surname>Lobov</Surname>
-    <Phone>055 654 55 55</Phone>
-    <Email>asdasd@i.fm</Email>
-    <DoctorType>Dermatologist</DoctorType>
-    <Experience>10</Experience>
+    <Name>Tоля</Name>
+    <Surname>Токов</Surname>
+    <Phone>044 550 50 50</Phone>
+    <Email>asd@aa.fm</Email>
+    <DoctorType>Paramedic</DoctorType>
+    <Experience>20</Experience>
     <Salary>25000</Salary>
-  </Doctor>
-  <Doctor>
-    <Id>2</Id>
-    <CreatedAt>2024-10-28T18:01:39.8856686+02:00</CreatedAt>
-    <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
-    <Name>Ivan</Name>
-    <Surname>Ivanovich</Surname>
-    <Phone>050 500 50 50</Phone>
-    <Email>asdas@ia.oa</Email>
-    <DoctorType>Dentist</DoctorType>
-    <Experience>10</Experience>
-    <Salary>30000</Salary>
   </Doctor>
 </ArrayOfDoctor>

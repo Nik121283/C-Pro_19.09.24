@@ -42,16 +42,23 @@ namespace MyDoctorAppointment.Data.Repositories
 
         public bool Delete(int id)
         {
-            if (GetById(id) is null)
+            var checkById = GetById(id);
+
+            if (checkById is null)
                 return false;
 
             var havingData = GetAll();
             var newData = havingData.Where(x => x.Id != id).ToList();
+
+            File.Delete(Path);
+
+            SerializationService.Serialize(Path, newData);
+
             return true;
         }
 
         // возвращаем лист типа Т, если файла нет, создаем
-        public IEnumerable<TSource> GetAll()
+        public List<TSource> GetAll()
         {
             if (!File.Exists(Path))
             {
@@ -67,6 +74,7 @@ namespace MyDoctorAppointment.Data.Repositories
         {
             return GetAll().FirstOrDefault(x => x.Id == id);
         }
+
 
         public bool Update(int id, TSource source)
         {

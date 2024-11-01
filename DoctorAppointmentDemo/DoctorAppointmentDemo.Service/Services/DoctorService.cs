@@ -103,5 +103,14 @@ namespace MyDoctorAppointment.Service.Services
             return _doctorRepository.Update(id, doctor);
         }
 
+        public bool IncreaseSalaryById(int id, decimal addToSalary)
+        {
+            return _doctorRepository.IncreaseSalary(id, addToSalary);
+        }
+
+        public bool DecreaseSalaryById(int id, decimal addToSalary)
+        {
+            return _doctorRepository.DecreaseSalary(id, addToSalary);
+        }
     }
 }

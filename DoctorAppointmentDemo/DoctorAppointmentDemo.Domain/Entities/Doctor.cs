@@ -25,7 +25,7 @@ namespace MyDoctorAppointment.Domain.Entities
 
         public override string ToString()
         {
-            return $"{base.Name} {base.Surname} Профиль доктора:{DoctorType} Опыт работы:{Experience} Зарплата:{Salary}";
+            return $" {this.Id} {this.Name} {this.Surname} Профиль доктора:{DoctorType} Опыт работы:{Experience} Зарплата:{Salary}";
         }
     }
 }

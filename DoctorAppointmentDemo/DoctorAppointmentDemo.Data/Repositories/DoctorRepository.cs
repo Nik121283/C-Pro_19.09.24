@@ -1,7 +1,5 @@
-﻿using MyDoctorAppointment.Data.Configuration;
-using MyDoctorAppointment.Data.Interfaces;
+﻿using MyDoctorAppointment.Data.Interfaces;
 using MyDoctorAppointment.Domain.Entities;
-using Newtonsoft.Json.Serialization;
 using DoctorAppointmentDemo.Data.Interfaces;
 using MyDoctorAppointment.Domain.Enums;
 
@@ -25,6 +23,8 @@ namespace MyDoctorAppointment.Data.Repositories
             Path = result.Database.Doctors.Path;
             LastId = result.Database.Doctors.LastId;
         }
+
+
 
         public override void ShowInfo(Doctor doctor)
         {
@@ -77,9 +77,10 @@ namespace MyDoctorAppointment.Data.Repositories
             return false;
         }
 
-        public IEnumerable<Doctor> GetAllbyDoctorTypes(DoctorTypes doctorTypes)
+        public List<Doctor> GetAllbyDoctorTypes(DoctorTypes doctorTypes)
         {
             return GetAll().Where(x => x.DoctorType == doctorTypes).ToList();
         }
+
     }
 }
