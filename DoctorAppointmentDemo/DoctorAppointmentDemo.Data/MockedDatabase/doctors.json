@@ -10,5 +10,17 @@
     "Id": 4,
     "CreatedAt": "2024-10-18T16:52:16.5914659+03:00",
     "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "DoctorType": 2,
+    "Experience": 12,
+    "Salary": 22000.0,
+    "Name": "Roman",
+    "Surname": "Romanov",
+    "Phone": "044 440 44 50",
+    "Email": "12@oa.fm",
+    "Id": 5,
+    "CreatedAt": "2024-11-06T18:19:21.3952334+02:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
   }
 ]
