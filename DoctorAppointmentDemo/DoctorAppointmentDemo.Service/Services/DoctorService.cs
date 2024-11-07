@@ -17,9 +17,9 @@ namespace MyDoctorAppointment.Service.Services
             _doctorRepository = new DoctorRepository(appSettings, serializationService);
         }
 
-        public bool Create(Doctor newDoctor)
+        public bool Create()
         {
-            return _doctorRepository.Create(newDoctor);
+            return _doctorRepository.Create(DoctorsEnterFromConsole());
         }
 
 

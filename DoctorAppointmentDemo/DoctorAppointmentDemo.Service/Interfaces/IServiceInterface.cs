@@ -9,7 +9,7 @@ namespace DoctorAppointmentDemo.Service.Interfaces
 {
     public interface IServiceInterface<T>
     {
-        bool Create(T source);
+         bool Create();
 
         IEnumerable<T> GetAll();
 
@@ -31,6 +31,8 @@ namespace DoctorAppointmentDemo.Service.Interfaces
 
             return result;
         }
+
+
 
     }
 }
