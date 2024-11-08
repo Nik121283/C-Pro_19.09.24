@@ -18,18 +18,13 @@ namespace MyDoctorAppointment.Service.Services
             _appointmentRepository = new AppointmentRepository(appSettings, serializationService);
         }
 
-        public bool Create(Doctor doctor, Patient patient)
+        public bool Create(Appointment appointment)
         {
 
-            return _appointmentRepository.Create(AppointmentEnterFromConsole(doctor, patient));
+            return _appointmentRepository.Create(appointment);
         }
 
-        public bool Create()
-        {
-            return true;
-        }
-
-        public Appointment AppointmentEnterFromConsole(Doctor doctor, Patient patient)
+        public Appointment ItemEnterFromConsole(Doctor doctor, Patient patient)
         {
 
             Console.WriteLine("Введите время начала визита в формате DD.MM.YYYY");
@@ -86,6 +81,11 @@ namespace MyDoctorAppointment.Service.Services
         public bool Update(int id, Appointment appointment)
         {
             return _appointmentRepository.Update(id, appointment);
+        }
+
+        public Appointment ItemEnterFromConsole()
+        {
+            throw new NotImplementedException();
         }
     }
 }

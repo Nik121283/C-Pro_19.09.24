@@ -9,7 +9,11 @@ namespace DoctorAppointmentDemo.Service.Interfaces
 {
     public interface IServiceInterface<T>
     {
-         bool Create();
+        bool Create(T item);
+
+        T ItemEnterFromConsole();
+
+        T ItemEnterFromConsole(Doctor doctor, Patient patient);
 
         IEnumerable<T> GetAll();
 

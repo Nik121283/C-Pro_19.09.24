@@ -17,13 +17,12 @@ namespace MyDoctorAppointment.Service.Services
             _doctorRepository = new DoctorRepository(appSettings, serializationService);
         }
 
-        public bool Create()
+        public bool Create(Doctor doctor)
         {
-            return _doctorRepository.Create(DoctorsEnterFromConsole());
+            return _doctorRepository.Create(doctor);
         }
 
-
-        public Doctor DoctorsEnterFromConsole()
+        public Doctor ItemEnterFromConsole()
         {
             Console.WriteLine("Введите имя доктора");
             string name = Console.ReadLine();
@@ -111,6 +110,11 @@ namespace MyDoctorAppointment.Service.Services
         public bool DecreaseSalaryById(int id, decimal addToSalary)
         {
             return _doctorRepository.DecreaseSalary(id, addToSalary);
+        }
+
+        public Doctor ItemEnterFromConsole(Doctor doctor, Patient patient)
+        {
+            throw new NotImplementedException();
         }
     }
 }

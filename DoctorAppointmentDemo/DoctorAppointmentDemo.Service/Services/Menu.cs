@@ -87,8 +87,6 @@ namespace DoctorAppointmentDemo.Service.Services
         }
 
 
-
-
         public static void Start2(DoctorAppointment doctorAppointment)
         {
             int selectedOptions = 0;
@@ -141,15 +139,15 @@ namespace DoctorAppointmentDemo.Service.Services
                         switch (selectedOptions)
                         {
                             case 0:
-                                Start3<Doctor>("Меню базы Докторов", doctorAppointment._doctorService);
+                                Start3<Doctor>("Меню базы Докторов", doctorAppointment._doctorService, doctorAppointment);
                                 break;
 
                             case 1:
-                                Start3<Patient>("Меню базы Пациентов", doctorAppointment._patientService);
+                                Start3<Patient>("Меню базы Пациентов", doctorAppointment._patientService, doctorAppointment);
                                 break;
 
                             case 2:
-                                Start3<Appointment>("Меню базы Записей на прием", doctorAppointment._iAppointmentService);
+                                Start3<Appointment>("Меню базы Записей на прием", doctorAppointment._iAppointmentService, doctorAppointment);
                                 break;
 
                             case 3: exit = true; Start1(); break;
@@ -160,7 +158,8 @@ namespace DoctorAppointmentDemo.Service.Services
 
         }
 
-        public static void Start3<T> (string header, IServiceInterface<T> chosedBase)  
+
+        public static void Start3<T> (string header, IServiceInterface<T> chosedService, DoctorAppointment doctorAppointment)  
         {
             int selectedOptions = 0;
             string[] options = {     "Создать",
@@ -217,23 +216,45 @@ namespace DoctorAppointmentDemo.Service.Services
                         switch (selectedOptions)
                         {
                             case 0:
-                                chosedBase.Create(T newEntity);
+                                if (chosedService is IAppointmentService)
+                                {
+                                    Doctor doctor = doctorAppointment._doctorService.Get(doctorAppointment._doctorService.GetId());
+                                    Patient patient = doctorAppointment._patientService.Get(doctorAppointment._patientService.GetId());
+
+                                    chosedService.ItemEnterFromConsole(doctor, patient);
+                                    break;
+                                }
+                                chosedService.Create(chosedService.ItemEnterFromConsole());
                                 break;
 
                             case 1:
-                                chosedBase.GetAll();
+                                var result1 = chosedService.GetAll();
+                                foreach (var item in result1)
+                                { Console.WriteLine(item); }
+                                Console.ReadLine();
                                 break;
 
                             case 2:
-                                chosedBase.Get(chosedBase.GetId());
+                                var result2 = chosedService.Get(chosedService.GetId());
+                                Console.WriteLine(result2);
+                                Console.ReadLine();
                                 break;
 
                             case 3:
-                                chosedBase.Delete(chosedBase.GetId());
+                                chosedService.Delete(chosedService.GetId());
                                 break;
 
                             case 4:
-                                chosedBase.Update(chosedBase.GetId(), T newEntity);
+                                
+                                if(chosedService is IAppointmentService)
+                                {
+                                    Doctor doctor = doctorAppointment._doctorService.Get(doctorAppointment._doctorService.GetId());
+                                    Patient patient = doctorAppointment._patientService.Get(doctorAppointment._patientService.GetId());
+
+                                    chosedService.Update(chosedService.GetId(), chosedService.ItemEnterFromConsole(doctor, patient));
+                                    break;
+                                }
+                                chosedService.Update(chosedService.GetId(), chosedService.ItemEnterFromConsole());
                                 break;
 
                             case 5: exit = true; Start2(doctorAppointment); break;

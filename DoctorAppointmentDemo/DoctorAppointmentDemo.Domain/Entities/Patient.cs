@@ -26,7 +26,7 @@ namespace MyDoctorAppointment.Domain.Entities
 
         public override string ToString()
         {
-            return $"{base.Name} {base.Surname} Болезнь:{IllnessType} Адресс:{Address}";
+            return $" {this.Id} {this.Name} {this.Surname} Болезнь:{IllnessType} Адресс:{Address}";
         }
     }
 }

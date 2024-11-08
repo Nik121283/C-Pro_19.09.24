@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPatient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Patient>
+    <Id>1</Id>
+    <CreatedAt>2024-11-08T18:45:51.6050355+02:00</CreatedAt>
+    <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+    <Name>Roma</Name>
+    <Surname>Romiks</Surname>
+    <Phone>055 555 05 05</Phone>
+    <Email>att@ua.fm</Email>
+    <IllnessType>Infection</IllnessType>
+    <AdditionalInfo>упрям</AdditionalInfo>
+    <Address>Ленина 1а</Address>
+  </Patient>
+</ArrayOfPatient>

@@ -10,7 +10,7 @@ namespace MyDoctorAppointment
     {
         public static void Main()
         {
-            Menu.Start();
+            Menu.Start1();
         }
     }
 }

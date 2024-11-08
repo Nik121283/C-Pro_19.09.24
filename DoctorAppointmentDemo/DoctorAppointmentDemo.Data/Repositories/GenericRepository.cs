@@ -81,6 +81,7 @@ namespace MyDoctorAppointment.Data.Repositories
             var checkById = GetById(id);
             if (checkById == null)
             {
+                Console.WriteLine("Нет такого Id");
                 return false;
             }
 
@@ -89,7 +90,7 @@ namespace MyDoctorAppointment.Data.Repositories
 
             var havingData = GetAll();
 
-            havingData.Select(x => x.Id == id ? source : x) ;
+            havingData.Select(x => x.Id == id ? x = source : x) ;
 
             return true;
         }

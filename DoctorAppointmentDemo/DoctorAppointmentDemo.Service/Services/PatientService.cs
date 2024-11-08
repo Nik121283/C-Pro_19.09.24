@@ -17,13 +17,13 @@ namespace MyDoctorAppointment.Service.Services
             _patientRepository = new PatientRepository(appSettings, serializationService);
         }
 
-        public bool Create()
+        public bool Create(Patient patient)
         {
-            return _patientRepository.Create(PatientEnterFromConsole());
+            return _patientRepository.Create(patient);
         }
 
 
-        public Patient PatientEnterFromConsole()
+        public Patient ItemEnterFromConsole()
         {
             Console.WriteLine("Введите имя пациента");
             string name = Console.ReadLine();
@@ -83,6 +83,11 @@ namespace MyDoctorAppointment.Service.Services
         public bool Update(int id, Patient patient)
         {
             return _patientRepository.Update(id, patient);
+        }
+
+        public Patient ItemEnterFromConsole(Doctor doctor, Patient patient)
+        {
+            throw new NotImplementedException();
         }
     }
 }

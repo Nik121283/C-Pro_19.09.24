@@ -5,6 +5,8 @@ namespace MyDoctorAppointment.Service.Interfaces
 {
     public interface IAppointmentService : IServiceInterface<Appointment>
     {
-         bool Create(Doctor doctor, Patient patient);
+         bool Create(Appointment appointment);
+
+        Appointment ItemEnterFromConsole(Doctor doctor, Patient patient);
     }
 }
