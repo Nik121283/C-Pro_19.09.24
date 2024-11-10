@@ -90,7 +90,13 @@ namespace MyDoctorAppointment.Data.Repositories
 
             var havingData = GetAll();
 
-            havingData.Select(x => x.Id == id ? x = source : x) ;
+            int index = havingData.FindIndex(x => x.Id==id);
+
+            havingData[index] = source;
+
+            File.Delete(Path);
+
+            SerializationService.Serialize(Path, havingData);
 
             return true;
         }
@@ -115,22 +121,22 @@ namespace MyDoctorAppointment.Data.Repositories
                 {
                     repository = new Repository(
                     0,
-                    "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\doctors.json",
+                    "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\doctors.json",
                     0,
-                    "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\appointments.json",
+                    "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\appointments.json",
                     0,
-                    "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\patients.json");
+                    "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\patients.json");
                 }
 
                 if(AppSetings.EndsWith("xml", StringComparison.OrdinalIgnoreCase))
                 {
                     repository = new Repository(
                     0,
-                    "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\doctors.xml",
+                    "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\doctors.xml",
                     0,
-                    "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\appointments.xml",
+                    "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\appointments.xml",
                     0,
-                    "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\patients.xml");
+                    "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\patients.xml");
                 }
 
                 SerializationService.Serialize<Repository>(AppSetings, repository);

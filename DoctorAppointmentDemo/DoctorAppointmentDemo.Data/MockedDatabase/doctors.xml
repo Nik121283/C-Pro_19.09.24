@@ -2,14 +2,26 @@
 <ArrayOfDoctor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Doctor>
     <Id>5</Id>
-    <CreatedAt>2024-11-06T18:11:56.5664932+02:00</CreatedAt>
+    <CreatedAt>0001-01-01T00:00:00</CreatedAt>
+    <UpdatedAt>2024-11-10T22:29:33.1443871+02:00</UpdatedAt>
+    <Name>Iiii</Name>
+    <Surname>Iiii</Surname>
+    <Phone>011 111 11 11</Phone>
+    <Email>11@ka.fm</Email>
+    <DoctorType>Dermatologist</DoctorType>
+    <Experience>12</Experience>
+    <Salary>11001</Salary>
+  </Doctor>
+  <Doctor>
+    <Id>3</Id>
+    <CreatedAt>2024-11-10T22:05:48.5664105+02:00</CreatedAt>
     <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
-    <Name>Zig</Name>
-    <Surname>Zigov</Surname>
-    <Phone>066 660 60 60</Phone>
-    <Email>asdas@oowq.com</Email>
-    <DoctorType>Paramedic</DoctorType>
-    <Experience>2</Experience>
-    <Salary>16000</Salary>
+    <Name>Yuriu</Name>
+    <Surname>Ykol</Surname>
+    <Phone>055 050 05 02</Phone>
+    <Email>asd@gh.com</Email>
+    <DoctorType>Dermatologist</DoctorType>
+    <Experience>12</Experience>
+    <Salary>20000</Salary>
   </Doctor>
 </ArrayOfDoctor>

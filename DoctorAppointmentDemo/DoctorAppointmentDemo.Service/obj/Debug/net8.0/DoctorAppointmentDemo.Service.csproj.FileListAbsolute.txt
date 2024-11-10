@@ -33,3 +33,21 @@ E:\Обучение\C#\C# Hillel Pro 09.09.24\DoctorAppointmentDemo\DoctorAppoin
 E:\Обучение\C#\C# Hillel Pro 09.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\obj\Debug\net8.0\refint\DoctorAppointmentDemo.Service.dll
 E:\Обучение\C#\C# Hillel Pro 09.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\obj\Debug\net8.0\DoctorAppointmentDemo.Service.pdb
 E:\Обучение\C#\C# Hillel Pro 09.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\obj\Debug\net8.0\ref\DoctorAppointmentDemo.Service.dll
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\bin\Debug\net8.0\DoctorAppointmentDemo.Service.deps.json
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\bin\Debug\net8.0\DoctorAppointmentDemo.Service.dll
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\bin\Debug\net8.0\DoctorAppointmentDemo.Service.pdb
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\bin\Debug\net8.0\DoctorAppointmentDemo.Data.dll
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\bin\Debug\net8.0\DoctorAppointmentDemo.Domain.dll
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\bin\Debug\net8.0\DoctorAppointmentDemo.Data.pdb
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\bin\Debug\net8.0\DoctorAppointmentDemo.Domain.pdb
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\obj\Debug\net8.0\DoctorAppointmentDemo.Service.csproj.AssemblyReference.cache
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\obj\Debug\net8.0\DoctorAppointmentDemo.Service.GeneratedMSBuildEditorConfig.editorconfig
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\obj\Debug\net8.0\DoctorAppointmentDemo.Service.AssemblyInfoInputs.cache
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\obj\Debug\net8.0\DoctorAppointmentDemo.Service.AssemblyInfo.cs
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\obj\Debug\net8.0\DoctorAppointmentDemo.Service.csproj.CoreCompileInputs.cache
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\obj\Debug\net8.0\DoctorAppointmentDemo.Service.sourcelink.json
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\obj\Debug\net8.0\DoctorAp.D4975B89.Up2Date
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\obj\Debug\net8.0\DoctorAppointmentDemo.Service.dll
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\obj\Debug\net8.0\refint\DoctorAppointmentDemo.Service.dll
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\obj\Debug\net8.0\DoctorAppointmentDemo.Service.pdb
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Service\obj\Debug\net8.0\ref\DoctorAppointmentDemo.Service.dll
