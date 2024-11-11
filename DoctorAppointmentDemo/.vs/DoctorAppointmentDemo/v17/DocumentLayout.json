@@ -72,7 +72,7 @@
               "RelativeDocumentMoniker": "DoctorAppointmentDemo.Data\\Repositories\\GenericRepository.cs",
               "ToolTip": "E:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\Repositories\\GenericRepository.cs",
               "RelativeToolTip": "DoctorAppointmentDemo.Data\\Repositories\\GenericRepository.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFwAAAAMAAAA",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAkwFwAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T16:47:58.631Z",
               "EditorCaption": ""
@@ -87,8 +87,7 @@
               "RelativeToolTip": "DoctorAppointmentDemo.Domain\\Entities\\Patient.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAADwvxgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T16:42:33.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T16:42:33.344Z"
             },
             {
               "$type": "Document",
@@ -100,8 +99,7 @@
               "RelativeToolTip": "DoctorAppointmentDemo.Service\\Interfaces\\IPatientService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T15:56:32.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T15:56:32.092Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "DoctorAppointmentDemo.Service\\Services\\DoctorService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T15:52:20.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T15:52:20.19Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "DoctorAppointmentDemo.Service\\Interfaces\\IServiceInterface.cs",
               "ViewState": "AQIAABAAAAAAAAAAAADwvyQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T08:09:54.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T08:09:54.421Z"
             },
             {
               "$type": "Document",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "DoctorAppointmentDemo.Domain\\Entities\\Doctor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T15:28:13.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T15:28:13.349Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "RelativeToolTip": "DoctorAppointmentDemo.UI\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T13:19:30.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T13:19:30.602Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "DoctorAppointmentDemo.Service\\Interfaces\\IAppointmentService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T15:56:39.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T15:56:39.097Z"
             },
             {
               "$type": "Document",
@@ -178,8 +171,7 @@
               "RelativeToolTip": "DoctorAppointmentDemo.Service\\Services\\Menu.cs",
               "ViewState": "AQIAAPwAAAAAAAAAAAAQwPgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T15:46:00.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T15:46:00.38Z"
             },
             {
               "$type": "Document",
@@ -191,8 +183,7 @@
               "RelativeToolTip": "DoctorAppointmentDemo.Service\\Services\\AppointmentService.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwBoAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T12:35:03.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T12:35:03.432Z"
             }
           ]
         }

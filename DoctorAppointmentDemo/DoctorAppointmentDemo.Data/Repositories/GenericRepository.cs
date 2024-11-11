@@ -90,7 +90,13 @@ namespace MyDoctorAppointment.Data.Repositories
 
             var havingData = GetAll();
 
-            havingData.Select(x => x.Id == id ? x = source : x) ;
+            int index = havingData.FindIndex(x => x.Id == id);
+
+            havingData[index] = source;
+
+            File.Delete(Path);
+
+            SerializationService.Serialize(Path, havingData);
 
             return true;
         }

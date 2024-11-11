@@ -12,4 +12,16 @@
     <AdditionalInfo>упрям</AdditionalInfo>
     <Address>Ленина 1а</Address>
   </Patient>
+  <Patient>
+    <Id>2</Id>
+    <CreatedAt>2024-11-11T18:36:23.9494023+02:00</CreatedAt>
+    <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+    <Name>Роман</Name>
+    <Surname>Романов</Surname>
+    <Phone>066 566 50 50</Phone>
+    <Email>ua@ia.fm</Email>
+    <IllnessType>EyeDisease</IllnessType>
+    <AdditionalInfo>угрюм</AdditionalInfo>
+    <Address>Ленина 1а</Address>
+  </Patient>
 </ArrayOfPatient>
