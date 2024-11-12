@@ -2,7 +2,7 @@
 <Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Database>
     <Doctors>
-      <LastId>3</LastId>
+      <LastId>1</LastId>
       <Path>F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Data\MockedDatabase\doctors.xml</Path>
     </Doctors>
     <Appointments>
@@ -10,7 +10,7 @@
       <Path>F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Data\MockedDatabase\appointments.xml</Path>
     </Appointments>
     <Patients>
-      <LastId>2</LastId>
+      <LastId>0</LastId>
       <Path>F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Data\MockedDatabase\patients.xml</Path>
     </Patients>
   </Database>

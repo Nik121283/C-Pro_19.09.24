@@ -218,10 +218,10 @@ namespace DoctorAppointmentDemo.Service.Services
                             case 0:
                                 if (chosedService is IAppointmentService)
                                 {
-                                    Doctor doctor = doctorAppointment._doctorService.Get(doctorAppointment._doctorService.GetId());
-                                    Patient patient = doctorAppointment._patientService.Get(doctorAppointment._patientService.GetId());
+                                    Doctor doctor = doctorAppointment._doctorService.Get(doctorAppointment._doctorService.GetId("Выбор Доктора"));
+                                    Patient patient = doctorAppointment._patientService.Get(doctorAppointment._patientService.GetId("Выбор Пациента"));
 
-                                    chosedService.ItemEnterFromConsole(doctor, patient);
+                                    chosedService.Create(chosedService.ItemEnterFromConsole(doctor, patient));
                                     break;
                                 }
                                 chosedService.Create(chosedService.ItemEnterFromConsole());
@@ -235,26 +235,26 @@ namespace DoctorAppointmentDemo.Service.Services
                                 break;
 
                             case 2:
-                                var result2 = chosedService.Get(chosedService.GetId());
+                                var result2 = chosedService.Get(chosedService.GetId($"Выбор по Id в {header}"));
                                 Console.WriteLine(result2);
                                 Console.ReadLine();
                                 break;
 
                             case 3:
-                                chosedService.Delete(chosedService.GetId());
+                                chosedService.Delete(chosedService.GetId($"Удаление по Id в {header}"));
                                 break;
 
                             case 4:
                                 
                                 if(chosedService is IAppointmentService)
                                 {
-                                    Doctor doctor = doctorAppointment._doctorService.Get(doctorAppointment._doctorService.GetId());
-                                    Patient patient = doctorAppointment._patientService.Get(doctorAppointment._patientService.GetId());
+                                    Doctor doctor = doctorAppointment._doctorService.Get(doctorAppointment._doctorService.GetId("Выбор Доктора"));
+                                    Patient patient = doctorAppointment._patientService.Get(doctorAppointment._patientService.GetId("Выбор Пациента"));
 
-                                    chosedService.Update(chosedService.GetId(), chosedService.ItemEnterFromConsole(doctor, patient));
+                                    chosedService.Update(chosedService.GetId("Выбор записи к врачу для изменения"), chosedService.ItemEnterFromConsole(doctor, patient));
                                     break;
                                 }
-                                chosedService.Update(chosedService.GetId(), chosedService.ItemEnterFromConsole());
+                                chosedService.Update(chosedService.GetId("Выбор по Id для изменения существующей записи"), chosedService.ItemEnterFromConsole());
                                 break;
 
                             case 5: exit = true; Start2(doctorAppointment); break;

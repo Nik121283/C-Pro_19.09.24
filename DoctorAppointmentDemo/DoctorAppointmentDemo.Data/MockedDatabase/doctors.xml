@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfDoctor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Doctor>
-    <Id>5</Id>
-    <CreatedAt>0001-01-01T00:00:00</CreatedAt>
-    <UpdatedAt>2024-11-10T22:29:33.1443871+02:00</UpdatedAt>
-    <Name>Iiii</Name>
-    <Surname>Iiii</Surname>
-    <Phone>011 111 11 11</Phone>
-    <Email>11@ka.fm</Email>
+    <Id>1</Id>
+    <CreatedAt>2024-11-12T21:41:03.5799025+02:00</CreatedAt>
+    <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+    <Name>Рома</Name>
+    <Surname>Ромов</Surname>
+    <Phone>055 555 55 55</Phone>
+    <Email>rom@gmail.com</Email>
     <DoctorType>Dermatologist</DoctorType>
     <Experience>12</Experience>
-    <Salary>11001</Salary>
+    <Salary>28000</Salary>
   </Doctor>
   <Doctor>
-    <Id>3</Id>
-    <CreatedAt>2024-11-10T22:05:48.5664105+02:00</CreatedAt>
+    <Id>2</Id>
+    <CreatedAt>2024-11-12T21:42:34.8227413+02:00</CreatedAt>
     <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
-    <Name>Yuriu</Name>
-    <Surname>Ykol</Surname>
-    <Phone>055 050 05 02</Phone>
-    <Email>asd@gh.com</Email>
-    <DoctorType>Dermatologist</DoctorType>
-    <Experience>12</Experience>
-    <Salary>20000</Salary>
+    <Name>Генадий</Name>
+    <Surname>Генов</Surname>
+    <Phone>069 666 60 60</Phone>
+    <Email>rer@ua.gm</Email>
+    <DoctorType>Paramedic</DoctorType>
+    <Experience>6</Experience>
+    <Salary>24000</Salary>
   </Doctor>
 </ArrayOfDoctor>

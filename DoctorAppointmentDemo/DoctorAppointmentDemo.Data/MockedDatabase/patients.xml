@@ -2,26 +2,26 @@
 <ArrayOfPatient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Patient>
     <Id>1</Id>
-    <CreatedAt>0001-01-01T00:00:00</CreatedAt>
-    <UpdatedAt>2024-11-10T22:35:58.6576542+02:00</UpdatedAt>
-    <Name>Aaa</Name>
-    <Surname>Aaaa</Surname>
-    <Phone>011 111 11 11</Phone>
-    <Email>11@ka.ia</Email>
-    <IllnessType>EyeDisease</IllnessType>
-    <AdditionalInfo>111</AdditionalInfo>
-    <Address>111</Address>
+    <CreatedAt>2024-11-12T21:44:31.0271055+02:00</CreatedAt>
+    <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+    <Name>Игорь</Name>
+    <Surname>Громок</Surname>
+    <Phone>096 660 50 50</Phone>
+    <Email>rt@gmail.com</Email>
+    <IllnessType>DentalDisease</IllnessType>
+    <AdditionalInfo>чешется</AdditionalInfo>
+    <Address>Долгая 2к кв 77</Address>
   </Patient>
   <Patient>
     <Id>2</Id>
-    <CreatedAt>0001-01-01T00:00:00</CreatedAt>
-    <UpdatedAt>2024-11-10T22:25:59.0791481+02:00</UpdatedAt>
-    <Name>Uuu</Name>
-    <Surname>Uuuu</Surname>
-    <Phone>011 101 11 11</Phone>
-    <Email>11@ka.fm</Email>
-    <IllnessType>EyeDisease</IllnessType>
-    <AdditionalInfo>упрям</AdditionalInfo>
-    <Address>Аленаева 11</Address>
+    <CreatedAt>2024-11-12T21:54:08.4656953+02:00</CreatedAt>
+    <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+    <Name>Кирил</Name>
+    <Surname>Крюков</Surname>
+    <Phone>099 999 99 99</Phone>
+    <Email>kr@ua,fm</Email>
+    <IllnessType>Ambulance</IllnessType>
+    <AdditionalInfo>переживает</AdditionalInfo>
+    <Address>Румола 4к кв 12</Address>
   </Patient>
 </ArrayOfPatient>

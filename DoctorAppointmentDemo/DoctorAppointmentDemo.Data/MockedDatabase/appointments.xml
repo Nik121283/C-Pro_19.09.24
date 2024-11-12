@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAppointment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Appointment>
+    <Id>1</Id>
+    <CreatedAt>2024-11-12T22:36:10.0389971+02:00</CreatedAt>
+    <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+    <Patient>
+      <Id>2</Id>
+      <CreatedAt>2024-11-12T21:54:08.4656953+02:00</CreatedAt>
+      <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+      <Name>Кирил</Name>
+      <Surname>Крюков</Surname>
+      <Phone>099 999 99 99</Phone>
+      <Email>kr@ua,fm</Email>
+      <IllnessType>Ambulance</IllnessType>
+      <AdditionalInfo>переживает</AdditionalInfo>
+      <Address>Румола 4к кв 12</Address>
+    </Patient>
+    <Doctor>
+      <Id>1</Id>
+      <CreatedAt>2024-11-12T21:41:03.5799025+02:00</CreatedAt>
+      <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+      <Name>Рома</Name>
+      <Surname>Ромов</Surname>
+      <Phone>055 555 55 55</Phone>
+      <Email>rom@gmail.com</Email>
+      <DoctorType>Dermatologist</DoctorType>
+      <Experience>12</Experience>
+      <Salary>28000</Salary>
+    </Doctor>
+    <DateTimeFrom>2024-10-10T00:00:00</DateTimeFrom>
+    <DateTimeTo>2024-10-10T01:00:00</DateTimeTo>
+    <Description>срочно</Description>
+  </Appointment>
+</ArrayOfAppointment>
