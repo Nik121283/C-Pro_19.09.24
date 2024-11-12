@@ -90,7 +90,7 @@ namespace MyDoctorAppointment.Data.Repositories
 
             var havingData = GetAll();
 
-            int index = havingData.FindIndex(x => x.Id==id);
+            int index = havingData.FindIndex(x => x.Id == id);
 
             havingData[index] = source;
 
