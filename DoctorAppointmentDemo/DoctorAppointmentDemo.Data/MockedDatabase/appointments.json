@@ -1,0 +1,34 @@
+[
+  {
+    "Patient": {
+      "IllnessType": 4,
+      "AdditionalInfo": "красивая",
+      "Address": "Некрасова 3ц",
+      "Name": "Нюра",
+      "Surname": "Норковая",
+      "Phone": "077 777 77 77",
+      "Email": "777@ua.fm",
+      "Id": 3,
+      "CreatedAt": "2024-11-13T22:18:15.1399174+02:00",
+      "UpdatedAt": "0001-01-01T00:00:00"
+    },
+    "Doctor": {
+      "DoctorType": 4,
+      "Experience": 10,
+      "Salary": 23000.0,
+      "Name": "Гена",
+      "Surname": "Угрюмов",
+      "Phone": "098 999 99 99",
+      "Email": "99ua.fm",
+      "Id": 1,
+      "CreatedAt": "2024-11-13T22:19:06.7719501+02:00",
+      "UpdatedAt": "0001-01-01T00:00:00"
+    },
+    "DateTimeFrom": "2024-12-10T12:00:00",
+    "DateTimeTo": "2024-12-10T13:00:00",
+    "Description": "сложный пациент",
+    "Id": 1,
+    "CreatedAt": "2024-11-13T22:20:00.9657189+02:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  }
+]

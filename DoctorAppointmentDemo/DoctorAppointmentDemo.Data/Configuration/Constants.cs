@@ -2,8 +2,13 @@
 {
     public static class Constants
     {
-        // заменить на путь валидный для вашей директории на пк (в будущем будем использовать относительный путь)
-        public const string JsonAppSettingsPath = "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\Configuration\\appsettings.json";
-        public const string XmlAppSettingsPath = "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\Configuration\\appsettings.xml";
+        // Определяем корневую папку решения относительно текущей директории выполнения
+        public static readonly string rootPath = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)?.Parent?.Parent?.Parent?.Parent?.FullName
+                                                  ?? throw new InvalidOperationException("Не удалось определить корневую папку решения.");
+
+        // Относительные пути к файлам настроек
+        public static readonly string JsonAppSettingsPath = Path.Combine(rootPath, "DoctorAppointmentDemo.Data", "Configuration", "appsettings.json");
+        public static readonly string XmlAppSettingsPath = Path.Combine(rootPath, "DoctorAppointmentDemo.Data", "Configuration", "appsettings.xml");
     }
 }
+

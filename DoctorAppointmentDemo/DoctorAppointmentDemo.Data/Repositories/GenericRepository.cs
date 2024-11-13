@@ -12,6 +12,8 @@ namespace MyDoctorAppointment.Data.Repositories
     {
         public string AppSetings { get; private set; }
 
+        public string rootPath { get; private set; }
+
         public abstract ISerializationService SerializationService { get; set; }
 
         public abstract string Path { get; set; }
@@ -21,6 +23,7 @@ namespace MyDoctorAppointment.Data.Repositories
         protected GenericRepository(string appSetings, ISerializationService serializationService)
         {
             AppSetings = appSetings;
+            rootPath = Constants.rootPath;
             SerializationService = serializationService;  
         }
 
@@ -108,7 +111,7 @@ namespace MyDoctorAppointment.Data.Repositories
 
         protected Repository ReadFromAppSettings() 
         {
-
+            
             try
             {
                 return SerializationService.Deserialize<Repository>(AppSetings);
@@ -121,29 +124,32 @@ namespace MyDoctorAppointment.Data.Repositories
                 {
                     repository = new Repository(
                     0,
-                    "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\doctors.json",
+                    System.IO.Path.Combine(rootPath, "DoctorAppointmentDemo.Data", "MockedDatabase", "doctors.json"),
+
                     0,
-                    "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\appointments.json",
+                    System.IO.Path.Combine(rootPath, "DoctorAppointmentDemo.Data", "MockedDatabase", "appointments.json"),
+
                     0,
-                    "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\patients.json");
+                    System.IO.Path.Combine(rootPath, "DoctorAppointmentDemo.Data", "MockedDatabase", "patients.json"));
                 }
 
                 if(AppSetings.EndsWith("xml", StringComparison.OrdinalIgnoreCase))
                 {
                     repository = new Repository(
                     0,
-                    "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\doctors.xml",
+                    System.IO.Path.Combine(rootPath, "DoctorAppointmentDemo.Data", "MockedDatabase", "doctors.xml"),
+
                     0,
-                    "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\appointments.xml",
+                    System.IO.Path.Combine(rootPath, "DoctorAppointmentDemo.Data", "MockedDatabase", "appointments.xml"),
+
                     0,
-                    "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Data\\MockedDatabase\\patients.xml");
+                    System.IO.Path.Combine(rootPath, "DoctorAppointmentDemo.Data", "MockedDatabase", "patients.xml"));
                 }
 
                 SerializationService.Serialize<Repository>(AppSetings, repository);
                 return repository;
             }
-            
-            
+             
         }
 
 

@@ -1,0 +1,14 @@
+[
+  {
+    "DoctorType": 4,
+    "Experience": 10,
+    "Salary": 23000.0,
+    "Name": "Гена",
+    "Surname": "Угрюмов",
+    "Phone": "098 999 99 99",
+    "Email": "99ua.fm",
+    "Id": 1,
+    "CreatedAt": "2024-11-13T22:19:06.7719501+02:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  }
+]

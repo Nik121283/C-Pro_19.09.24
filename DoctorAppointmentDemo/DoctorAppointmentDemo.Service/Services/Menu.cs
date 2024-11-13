@@ -71,11 +71,13 @@ namespace DoctorAppointmentDemo.Service.Services
                         {
                             case 0:
                                 doctorAppointment = new DoctorAppointment(Constants.XmlAppSettingsPath, new XmlDataSerializerService());
+                                exit = true;
                                 Start2(doctorAppointment);
                                 break;
 
                             case 1:
-                                doctorAppointment = new DoctorAppointment(Constants.XmlAppSettingsPath, new XmlDataSerializerService());
+                                doctorAppointment = new DoctorAppointment(Constants.JsonAppSettingsPath, new JsonDataSerializerService());
+                                exit = true;
                                 Start2(doctorAppointment);
                                 break;
 
@@ -140,14 +142,17 @@ namespace DoctorAppointmentDemo.Service.Services
                         {
                             case 0:
                                 Start3<Doctor>("Меню базы Докторов", doctorAppointment._doctorService, doctorAppointment);
+                                exit = true;
                                 break;
 
                             case 1:
                                 Start3<Patient>("Меню базы Пациентов", doctorAppointment._patientService, doctorAppointment);
+                                exit = true;
                                 break;
 
                             case 2:
                                 Start3<Appointment>("Меню базы Записей на прием", doctorAppointment._iAppointmentService, doctorAppointment);
+                                exit = true;
                                 break;
 
                             case 3: exit = true; Start1(); break;
@@ -279,17 +284,6 @@ namespace DoctorAppointmentDemo.Service.Services
             _doctorService = new DoctorService(appSettings, serializationService);
             _patientService = new PatientService(appSettings, serializationService);
             _iAppointmentService = new AppointmentService(appSettings, serializationService);
-        }
-
-        public void ShowDoctors()
-        {
-            var result = _doctorService.GetAll();
-
-            foreach ( var item in result )
-            {
-                Console.WriteLine(item);
-            }
-            Console.ReadLine();
         }
     }
 }
