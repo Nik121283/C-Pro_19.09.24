@@ -71,11 +71,13 @@ namespace DoctorAppointmentDemo.Service.Services
                         {
                             case 0:
                                 doctorAppointment = new DoctorAppointment(Constants.XmlAppSettingsPath, new XmlDataSerializerService());
+                                exit = true;
                                 Start2(doctorAppointment);
                                 break;
 
                             case 1:
-                                doctorAppointment = new DoctorAppointment(Constants.XmlAppSettingsPath, new XmlDataSerializerService());
+                                doctorAppointment = new DoctorAppointment(Constants.JsonAppSettingsPath, new JsonDataSerializerService());
+                                exit = true;
                                 Start2(doctorAppointment);
                                 break;
 
@@ -140,14 +142,17 @@ namespace DoctorAppointmentDemo.Service.Services
                         {
                             case 0:
                                 Start3<Doctor>("Меню базы Докторов", doctorAppointment._doctorService, doctorAppointment);
+                                exit = true;
                                 break;
 
                             case 1:
                                 Start3<Patient>("Меню базы Пациентов", doctorAppointment._patientService, doctorAppointment);
+                                exit = true;
                                 break;
 
                             case 2:
                                 Start3<Appointment>("Меню базы Записей на прием", doctorAppointment._iAppointmentService, doctorAppointment);
+                                exit = true;
                                 break;
 
                             case 3: exit = true; Start1(); break;
@@ -218,10 +223,10 @@ namespace DoctorAppointmentDemo.Service.Services
                             case 0:
                                 if (chosedService is IAppointmentService)
                                 {
-                                    Doctor doctor = doctorAppointment._doctorService.Get(doctorAppointment._doctorService.GetId());
-                                    Patient patient = doctorAppointment._patientService.Get(doctorAppointment._patientService.GetId());
+                                    Doctor doctor = doctorAppointment._doctorService.Get(doctorAppointment._doctorService.GetId("Выбор Доктора"));
+                                    Patient patient = doctorAppointment._patientService.Get(doctorAppointment._patientService.GetId("Выбор Пациента"));
 
-                                    chosedService.ItemEnterFromConsole(doctor, patient);
+                                    chosedService.Create(chosedService.ItemEnterFromConsole(doctor, patient));
                                     break;
                                 }
                                 chosedService.Create(chosedService.ItemEnterFromConsole());
@@ -235,26 +240,26 @@ namespace DoctorAppointmentDemo.Service.Services
                                 break;
 
                             case 2:
-                                var result2 = chosedService.Get(chosedService.GetId());
+                                var result2 = chosedService.Get(chosedService.GetId($"Выбор по Id в {header}"));
                                 Console.WriteLine(result2);
                                 Console.ReadLine();
                                 break;
 
                             case 3:
-                                chosedService.Delete(chosedService.GetId());
+                                chosedService.Delete(chosedService.GetId($"Удаление по Id в {header}"));
                                 break;
 
                             case 4:
                                 
                                 if(chosedService is IAppointmentService)
                                 {
-                                    Doctor doctor = doctorAppointment._doctorService.Get(doctorAppointment._doctorService.GetId());
-                                    Patient patient = doctorAppointment._patientService.Get(doctorAppointment._patientService.GetId());
+                                    Doctor doctor = doctorAppointment._doctorService.Get(doctorAppointment._doctorService.GetId("Выбор Доктора"));
+                                    Patient patient = doctorAppointment._patientService.Get(doctorAppointment._patientService.GetId("Выбор Пациента"));
 
-                                    chosedService.Update(chosedService.GetId(), chosedService.ItemEnterFromConsole(doctor, patient));
+                                    chosedService.Update(chosedService.GetId("Выбор записи к врачу для изменения"), chosedService.ItemEnterFromConsole(doctor, patient));
                                     break;
                                 }
-                                chosedService.Update(chosedService.GetId(), chosedService.ItemEnterFromConsole());
+                                chosedService.Update(chosedService.GetId("Выбор по Id для изменения существующей записи"), chosedService.ItemEnterFromConsole());
                                 break;
 
                             case 5: exit = true; Start2(doctorAppointment); break;
@@ -279,17 +284,6 @@ namespace DoctorAppointmentDemo.Service.Services
             _doctorService = new DoctorService(appSettings, serializationService);
             _patientService = new PatientService(appSettings, serializationService);
             _iAppointmentService = new AppointmentService(appSettings, serializationService);
-        }
-
-        public void ShowDoctors()
-        {
-            var result = _doctorService.GetAll();
-
-            foreach ( var item in result )
-            {
-                Console.WriteLine(item);
-            }
-            Console.ReadLine();
         }
     }
 }

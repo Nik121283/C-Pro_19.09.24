@@ -29,37 +29,47 @@ namespace MyDoctorAppointment.Service.Services
 
             Console.WriteLine("Введите время начала визита в формате DD.MM.YYYY");
             string input = Console.ReadLine();
-                
-            if(DateTime.TryParse(input, out DateTime dateTimeFrom))
+
+            DateTime dateTimeFrom;
+            DateTime dateTimeTo;
+
+            while (true)
             {
-               Console.WriteLine($"Вы ввели время начала визита {dateTimeFrom}");
-            }
-            else
-            {
-                Console.WriteLine($"Вы ввели недопустимое значение");
+                if (DateTime.TryParse(input,out dateTimeFrom))
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine($"Вы ввели недопустимое значение для даты");
+                }
+
             }
 
             Console.WriteLine("Введите время окончания визита в формате DD.MM.YYYY");
-            input = Console.ReadLine();
-
-            if (DateTime.TryParse(input, out DateTime dateTimeTo))
+            while (true)
             {
-                Console.WriteLine($"Вы ввели время окончания визита {dateTimeTo}");
-            }
-            else
-            {
-                Console.WriteLine($"Вы ввели недопустимое значение");
-            }
+                
+                input = Console.ReadLine();
 
+                if (DateTime.TryParse(input, out dateTimeTo))
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine($"Вы ввели недопустимое значение");
+                }
+            }
 
             Console.WriteLine("Введите дополнительную информацию о визите");
             string additionalInfo = Console.ReadLine();
 
 
             //Patient patient, Doctor doctor, DateTime dateTimeFrom, DateTime dateTimeTo, string description
-            Appointment newPatient = new Appointment( patient, doctor, dateTimeFrom, dateTimeTo, additionalInfo);
+            Appointment newAppointment = new Appointment( patient, doctor, dateTimeFrom, dateTimeTo, additionalInfo);
 
-            return newPatient;
+            return newAppointment;
         }
 
 

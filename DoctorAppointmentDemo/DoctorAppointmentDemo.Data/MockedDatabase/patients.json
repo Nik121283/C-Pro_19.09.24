@@ -1,1 +1,26 @@
-﻿
+[
+  {
+    "IllnessType": 4,
+    "AdditionalInfo": "первый джейсон пациент",
+    "Address": "Дорпова 3б",
+    "Name": "Джейсон",
+    "Surname": "Первый",
+    "Phone": "011 11 11 111",
+    "Email": "dgg@gmail.com",
+    "Id": 1,
+    "CreatedAt": "2024-11-13T22:15:22.0412681+02:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "IllnessType": 4,
+    "AdditionalInfo": "красивая",
+    "Address": "Некрасова 3ц",
+    "Name": "Нюра",
+    "Surname": "Норковая",
+    "Phone": "077 777 77 77",
+    "Email": "777@ua.fm",
+    "Id": 3,
+    "CreatedAt": "2024-11-13T22:18:15.1399174+02:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  }
+]

@@ -23,19 +23,27 @@ namespace DoctorAppointmentDemo.Service.Interfaces
 
         bool Update(int id, T newEntity);
 
-        int GetId()
+        int GetId(string header)
         {
             int result;
 
+            Console.WriteLine($"\n\n{header}");
+            Console.WriteLine("\nВ базе имеются:");
+            var all = this.GetAll();
+
+            foreach (var item in all)
+            {
+                Console.WriteLine(item);
+            }
+
             Console.WriteLine("Введите Id");
-            if (!int.TryParse(Console.ReadLine(), out result) || result <0)
+            if (!int.TryParse(Console.ReadLine(), out result) || result < 0)
             {
                 Console.WriteLine("Введено недопустимое значение");
             }
 
             return result;
         }
-
 
 
     }

@@ -108,23 +108,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\N\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.UI\\DoctorAppointmentDemo.UI.csproj",
+      "projectUniqueName": "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.UI\\DoctorAppointmentDemo.UI.csproj",
       "projectName": "DoctorAppointmentDemo.UI",
-      "projectPath": "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.UI\\DoctorAppointmentDemo.UI.csproj",
-      "packagesPath": "C:\\Users\\N\\.nuget\\packages\\",
-      "outputPath": "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.UI\\obj\\",
+      "projectPath": "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.UI\\DoctorAppointmentDemo.UI.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\N\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -140,8 +140,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Service\\DoctorAppointmentDemo.Service.csproj": {
-              "projectPath": "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Service\\DoctorAppointmentDemo.Service.csproj"
+            "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Service\\DoctorAppointmentDemo.Service.csproj": {
+              "projectPath": "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Service\\DoctorAppointmentDemo.Service.csproj"
             }
           }
         }
@@ -176,7 +176,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

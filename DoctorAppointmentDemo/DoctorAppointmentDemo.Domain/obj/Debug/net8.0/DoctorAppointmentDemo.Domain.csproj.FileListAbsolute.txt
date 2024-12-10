@@ -21,3 +21,15 @@ E:\Обучение\C#\C# Hillel Pro 09.09.24\DoctorAppointmentDemo\DoctorAppoin
 E:\Обучение\C#\C# Hillel Pro 09.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Domain\obj\Debug\net8.0\refint\DoctorAppointmentDemo.Domain.dll
 E:\Обучение\C#\C# Hillel Pro 09.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Domain\obj\Debug\net8.0\DoctorAppointmentDemo.Domain.pdb
 E:\Обучение\C#\C# Hillel Pro 09.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Domain\obj\Debug\net8.0\ref\DoctorAppointmentDemo.Domain.dll
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Domain\bin\Debug\net8.0\DoctorAppointmentDemo.Domain.deps.json
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Domain\bin\Debug\net8.0\DoctorAppointmentDemo.Domain.dll
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Domain\bin\Debug\net8.0\DoctorAppointmentDemo.Domain.pdb
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Domain\obj\Debug\net8.0\DoctorAppointmentDemo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Domain\obj\Debug\net8.0\DoctorAppointmentDemo.Domain.AssemblyInfoInputs.cache
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Domain\obj\Debug\net8.0\DoctorAppointmentDemo.Domain.AssemblyInfo.cs
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Domain\obj\Debug\net8.0\DoctorAppointmentDemo.Domain.csproj.CoreCompileInputs.cache
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Domain\obj\Debug\net8.0\DoctorAppointmentDemo.Domain.sourcelink.json
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Domain\obj\Debug\net8.0\DoctorAppointmentDemo.Domain.dll
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Domain\obj\Debug\net8.0\refint\DoctorAppointmentDemo.Domain.dll
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Domain\obj\Debug\net8.0\DoctorAppointmentDemo.Domain.pdb
+F:\Обучение\C#\C-Pro 19.09.24\DoctorAppointmentDemo\DoctorAppointmentDemo.Domain\obj\Debug\net8.0\ref\DoctorAppointmentDemo.Domain.dll

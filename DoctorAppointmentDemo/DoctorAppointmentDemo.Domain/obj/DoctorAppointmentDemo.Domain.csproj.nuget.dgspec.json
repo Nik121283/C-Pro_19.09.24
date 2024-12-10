@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Domain\\DoctorAppointmentDemo.Domain.csproj": {}
+    "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Domain\\DoctorAppointmentDemo.Domain.csproj": {}
   },
   "projects": {
-    "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Domain\\DoctorAppointmentDemo.Domain.csproj": {
+    "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Domain\\DoctorAppointmentDemo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Domain\\DoctorAppointmentDemo.Domain.csproj",
+        "projectUniqueName": "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Domain\\DoctorAppointmentDemo.Domain.csproj",
         "projectName": "DoctorAppointmentDemo.Domain",
-        "projectPath": "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Domain\\DoctorAppointmentDemo.Domain.csproj",
-        "packagesPath": "C:\\Users\\N\\.nuget\\packages\\",
-        "outputPath": "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Domain\\obj\\",
+        "projectPath": "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Domain\\DoctorAppointmentDemo.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "F:\\Обучение\\C#\\C-Pro 19.09.24\\DoctorAppointmentDemo\\DoctorAppointmentDemo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\N\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
