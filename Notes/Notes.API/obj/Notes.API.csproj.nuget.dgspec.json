@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\Notes\\Notes.API\\Notes.API.csproj": {}
+    "F:\\Обучение\\C#\\С# HW2\\Notes\\Notes.API\\Notes.API.csproj": {}
   },
   "projects": {
-    "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\Notes\\Notes.API\\Notes.API.csproj": {
+    "F:\\Обучение\\C#\\С# HW2\\Notes\\Notes.API\\Notes.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\Notes\\Notes.API\\Notes.API.csproj",
+        "projectUniqueName": "F:\\Обучение\\C#\\С# HW2\\Notes\\Notes.API\\Notes.API.csproj",
         "projectName": "Notes.API",
-        "projectPath": "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\Notes\\Notes.API\\Notes.API.csproj",
-        "packagesPath": "C:\\Users\\N\\.nuget\\packages\\",
-        "outputPath": "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\Notes\\Notes.API\\obj\\",
+        "projectPath": "F:\\Обучение\\C#\\С# HW2\\Notes\\Notes.API\\Notes.API.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "F:\\Обучение\\C#\\С# HW2\\Notes\\Notes.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\N\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\Notes\\Notes.Data\\Notes.Data.csproj": {
-                "projectPath": "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\Notes\\Notes.Data\\Notes.Data.csproj"
+              "F:\\Обучение\\C#\\С# HW2\\Notes\\Notes.Data\\Notes.Data.csproj": {
+                "projectPath": "F:\\Обучение\\C#\\С# HW2\\Notes\\Notes.Data\\Notes.Data.csproj"
               }
             }
           }
@@ -48,7 +48,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -84,24 +85,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\Notes\\Notes.Data\\Notes.Data.csproj": {
+    "F:\\Обучение\\C#\\С# HW2\\Notes\\Notes.Data\\Notes.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\Notes\\Notes.Data\\Notes.Data.csproj",
+        "projectUniqueName": "F:\\Обучение\\C#\\С# HW2\\Notes\\Notes.Data\\Notes.Data.csproj",
         "projectName": "Notes.Data",
-        "projectPath": "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\Notes\\Notes.Data\\Notes.Data.csproj",
-        "packagesPath": "C:\\Users\\N\\.nuget\\packages\\",
-        "outputPath": "E:\\Обучение\\C#\\C# Hillel Pro 09.09.24\\Notes\\Notes.Data\\obj\\",
+        "projectPath": "F:\\Обучение\\C#\\С# HW2\\Notes\\Notes.Data\\Notes.Data.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "F:\\Обучение\\C#\\С# HW2\\Notes\\Notes.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\N\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -128,7 +129,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -171,7 +173,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

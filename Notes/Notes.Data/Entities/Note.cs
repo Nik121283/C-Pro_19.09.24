@@ -21,7 +21,7 @@ namespace Notes.Data.Entities
         public int ContactId { get; set; }
 
         [ForeignKey("ContactId")]
-        public Contact Contact { get; set; }
+        public virtual Contact Contact { get; set; }
 
         public virtual IEnumerable<NoteAndTag> Tags { get; set; }
     }

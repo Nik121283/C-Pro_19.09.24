@@ -10,3 +10,15 @@ E:\Обучение\C#\C# Hillel Pro 09.09.24\Notes\Notes.Domain\obj\Debug\net8.
 E:\Обучение\C#\C# Hillel Pro 09.09.24\Notes\Notes.Domain\obj\Debug\net8.0\refint\Notes.Domain.dll
 E:\Обучение\C#\C# Hillel Pro 09.09.24\Notes\Notes.Domain\obj\Debug\net8.0\Notes.Domain.pdb
 E:\Обучение\C#\C# Hillel Pro 09.09.24\Notes\Notes.Domain\obj\Debug\net8.0\ref\Notes.Domain.dll
+F:\Обучение\C#\С# HW2\Notes\Notes.Domain\bin\Debug\net8.0\Notes.Domain.deps.json
+F:\Обучение\C#\С# HW2\Notes\Notes.Domain\bin\Debug\net8.0\Notes.Domain.dll
+F:\Обучение\C#\С# HW2\Notes\Notes.Domain\bin\Debug\net8.0\Notes.Domain.pdb
+F:\Обучение\C#\С# HW2\Notes\Notes.Domain\obj\Debug\net8.0\Notes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Обучение\C#\С# HW2\Notes\Notes.Domain\obj\Debug\net8.0\Notes.Domain.AssemblyInfoInputs.cache
+F:\Обучение\C#\С# HW2\Notes\Notes.Domain\obj\Debug\net8.0\Notes.Domain.AssemblyInfo.cs
+F:\Обучение\C#\С# HW2\Notes\Notes.Domain\obj\Debug\net8.0\Notes.Domain.csproj.CoreCompileInputs.cache
+F:\Обучение\C#\С# HW2\Notes\Notes.Domain\obj\Debug\net8.0\Notes.Domain.sourcelink.json
+F:\Обучение\C#\С# HW2\Notes\Notes.Domain\obj\Debug\net8.0\Notes.Domain.dll
+F:\Обучение\C#\С# HW2\Notes\Notes.Domain\obj\Debug\net8.0\refint\Notes.Domain.dll
+F:\Обучение\C#\С# HW2\Notes\Notes.Domain\obj\Debug\net8.0\Notes.Domain.pdb
+F:\Обучение\C#\С# HW2\Notes\Notes.Domain\obj\Debug\net8.0\ref\Notes.Domain.dll

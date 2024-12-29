@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "UUjvbUlCdVOYYov8FN/w2B6tx+nLjD0PLupJr9Fst3s=",
+  "Hash": "OBdydGsPP0A3wGTaaHjl2xEjUv44AgQbdR4Rz+N762w=",
   "Source": "Notes.API",
   "BasePath": "_content/Notes.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

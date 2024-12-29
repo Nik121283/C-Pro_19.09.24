@@ -14,7 +14,7 @@ namespace Notes.Services
             _noteContext = noteContext;
         }
 
-        public void AddContact(Notes.Domain.Contact adding)
+        public void Add(Notes.Domain.Contact adding)
         {
             if (adding is not null)
             { _noteContext.Contacts.Add(new Data.Entities.Contact { Id = adding.Id, Name = adding.Name, Surname = adding.Surname, Description = adding.Description, Email = adding.Email, Phone1 = adding.Phone1, Phone2 = adding.Phone2 }); 
@@ -26,7 +26,7 @@ namespace Notes.Services
 
         public Notes.Domain.Contact Get(int Id)
         {
-            if (Id > 0)
+            if (Id >= 0)
             {
                 return _noteContext.Contacts.Where(x => x.Id == Id).Select(x => new Notes.Domain.Contact { Id = x.Id, Name = x.Name, Surname = x.Surname, Description = x.Description, Email = x.Email, Phone1 = x.Phone1, Phone2 = x.Phone2 }).FirstOrDefault();
             }
@@ -38,9 +38,9 @@ namespace Notes.Services
             return _noteContext.Contacts.Select(x => new Notes.Domain.Contact { Id = x.Id, Name = x.Name, Surname = x.Surname, Description = x.Description, Email = x.Email, Phone1 = x.Phone1, Phone2 = x.Phone2 });
         }
 
-        public void RemoveContact(int Id)
+        public void Remove(int Id)
         {
-            if (Id > 0)
+            if (Id >= 0)
             {
                 var deletingItem = _noteContext.Contacts.Where(x => x.Id == Id).FirstOrDefault();
 
@@ -56,7 +56,7 @@ namespace Notes.Services
 
         public void Update(int Id, Contact contact)
         {
-            if (Id > 0)
+            if (Id >= 0)
             {
                 var changingItem = _noteContext.Contacts.Where(x => x.Id == Id).FirstOrDefault();
 

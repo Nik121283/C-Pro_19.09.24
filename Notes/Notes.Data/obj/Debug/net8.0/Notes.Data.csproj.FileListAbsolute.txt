@@ -13,3 +13,18 @@ E:\Обучение\C#\C# Hillel Pro 09.09.24\Notes\Notes.Data\obj\Debug\net8.0\
 E:\Обучение\C#\C# Hillel Pro 09.09.24\Notes\Notes.Data\obj\Debug\net8.0\Notes.Data.pdb
 E:\Обучение\C#\C# Hillel Pro 09.09.24\Notes\Notes.Data\obj\Debug\net8.0\Notes.Data.genruntimeconfig.cache
 E:\Обучение\C#\C# Hillel Pro 09.09.24\Notes\Notes.Data\obj\Debug\net8.0\ref\Notes.Data.dll
+F:\Обучение\C#\С# HW2\Notes\Notes.Data\bin\Debug\net8.0\Notes.Data.deps.json
+F:\Обучение\C#\С# HW2\Notes\Notes.Data\bin\Debug\net8.0\Notes.Data.runtimeconfig.json
+F:\Обучение\C#\С# HW2\Notes\Notes.Data\bin\Debug\net8.0\Notes.Data.dll
+F:\Обучение\C#\С# HW2\Notes\Notes.Data\bin\Debug\net8.0\Notes.Data.pdb
+F:\Обучение\C#\С# HW2\Notes\Notes.Data\obj\Debug\net8.0\Notes.Data.csproj.AssemblyReference.cache
+F:\Обучение\C#\С# HW2\Notes\Notes.Data\obj\Debug\net8.0\Notes.Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\Обучение\C#\С# HW2\Notes\Notes.Data\obj\Debug\net8.0\Notes.Data.AssemblyInfoInputs.cache
+F:\Обучение\C#\С# HW2\Notes\Notes.Data\obj\Debug\net8.0\Notes.Data.AssemblyInfo.cs
+F:\Обучение\C#\С# HW2\Notes\Notes.Data\obj\Debug\net8.0\Notes.Data.csproj.CoreCompileInputs.cache
+F:\Обучение\C#\С# HW2\Notes\Notes.Data\obj\Debug\net8.0\Notes.Data.sourcelink.json
+F:\Обучение\C#\С# HW2\Notes\Notes.Data\obj\Debug\net8.0\Notes.Data.dll
+F:\Обучение\C#\С# HW2\Notes\Notes.Data\obj\Debug\net8.0\refint\Notes.Data.dll
+F:\Обучение\C#\С# HW2\Notes\Notes.Data\obj\Debug\net8.0\Notes.Data.pdb
+F:\Обучение\C#\С# HW2\Notes\Notes.Data\obj\Debug\net8.0\Notes.Data.genruntimeconfig.cache
+F:\Обучение\C#\С# HW2\Notes\Notes.Data\obj\Debug\net8.0\ref\Notes.Data.dll

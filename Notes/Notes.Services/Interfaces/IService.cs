@@ -11,9 +11,9 @@ namespace Notes.Services.Interfaces
     {
         public IEnumerable<T> GetAll();
 
-        public void AddContact (T addingItem);
+        public void Add (T addingItem);
 
-        public void RemoveContact (int Id);
+        public void Remove (int Id);
 
         public T Get (int Id);
 

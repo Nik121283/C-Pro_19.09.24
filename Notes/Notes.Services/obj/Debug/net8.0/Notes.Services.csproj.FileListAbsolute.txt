@@ -10,3 +10,21 @@ E:\Обучение\C#\C# Hillel Pro 09.09.24\Notes\Notes.Services\obj\Debug\net
 E:\Обучение\C#\C# Hillel Pro 09.09.24\Notes\Notes.Services\obj\Debug\net8.0\refint\Notes.Services.dll
 E:\Обучение\C#\C# Hillel Pro 09.09.24\Notes\Notes.Services\obj\Debug\net8.0\Notes.Services.pdb
 E:\Обучение\C#\C# Hillel Pro 09.09.24\Notes\Notes.Services\obj\Debug\net8.0\ref\Notes.Services.dll
+F:\Обучение\C#\С# HW2\Notes\Notes.Services\bin\Debug\net8.0\Notes.Services.deps.json
+F:\Обучение\C#\С# HW2\Notes\Notes.Services\bin\Debug\net8.0\Notes.Services.dll
+F:\Обучение\C#\С# HW2\Notes\Notes.Services\bin\Debug\net8.0\Notes.Services.pdb
+F:\Обучение\C#\С# HW2\Notes\Notes.Services\bin\Debug\net8.0\Notes.Data.dll
+F:\Обучение\C#\С# HW2\Notes\Notes.Services\bin\Debug\net8.0\Notes.Domain.dll
+F:\Обучение\C#\С# HW2\Notes\Notes.Services\bin\Debug\net8.0\Notes.Data.pdb
+F:\Обучение\C#\С# HW2\Notes\Notes.Services\bin\Debug\net8.0\Notes.Domain.pdb
+F:\Обучение\C#\С# HW2\Notes\Notes.Services\obj\Debug\net8.0\Notes.Services.csproj.AssemblyReference.cache
+F:\Обучение\C#\С# HW2\Notes\Notes.Services\obj\Debug\net8.0\Notes.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\Обучение\C#\С# HW2\Notes\Notes.Services\obj\Debug\net8.0\Notes.Services.AssemblyInfoInputs.cache
+F:\Обучение\C#\С# HW2\Notes\Notes.Services\obj\Debug\net8.0\Notes.Services.AssemblyInfo.cs
+F:\Обучение\C#\С# HW2\Notes\Notes.Services\obj\Debug\net8.0\Notes.Services.csproj.CoreCompileInputs.cache
+F:\Обучение\C#\С# HW2\Notes\Notes.Services\obj\Debug\net8.0\Notes.Services.sourcelink.json
+F:\Обучение\C#\С# HW2\Notes\Notes.Services\obj\Debug\net8.0\Notes.Se.9CA747AD.Up2Date
+F:\Обучение\C#\С# HW2\Notes\Notes.Services\obj\Debug\net8.0\Notes.Services.dll
+F:\Обучение\C#\С# HW2\Notes\Notes.Services\obj\Debug\net8.0\refint\Notes.Services.dll
+F:\Обучение\C#\С# HW2\Notes\Notes.Services\obj\Debug\net8.0\Notes.Services.pdb
+F:\Обучение\C#\С# HW2\Notes\Notes.Services\obj\Debug\net8.0\ref\Notes.Services.dll
