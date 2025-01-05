@@ -3,48 +3,58 @@
   "WorkspaceRootPath": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\Notes.Data\\Migrations\\20241229210530_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notes.Data\\Migrations\\20241229210530_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E24CE5C9-C941-4F70-8C07-7D377883D37C}|Notes.Services\\Notes.Services.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notes.services\\notesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E24CE5C9-C941-4F70-8C07-7D377883D37C}|Notes.Services\\Notes.Services.csproj|solutionrelative:notes.services\\notesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41DE5BBF-86A1-46DD-B6B9-4EC1F7730C36}|Notes.Data\\Notes.Data.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notes.data\\entities\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41DE5BBF-86A1-46DD-B6B9-4EC1F7730C36}|Notes.Data\\Notes.Data.csproj|solutionrelative:notes.data\\entities\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notesmvc\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|solutionrelative:notesmvc\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E24CE5C9-C941-4F70-8C07-7D377883D37C}|Notes.Services\\Notes.Services.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notes.services\\contactsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E24CE5C9-C941-4F70-8C07-7D377883D37C}|Notes.Services\\Notes.Services.csproj|solutionrelative:notes.services\\contactsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NotesDB/True/SqlTable/dbo.Notes.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E24CE5C9-C941-4F70-8C07-7D377883D37C}|Notes.Services\\Notes.Services.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notes.services\\interfaces\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E24CE5C9-C941-4F70-8C07-7D377883D37C}|Notes.Services\\Notes.Services.csproj|solutionrelative:notes.services\\interfaces\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NotesDB/True/SqlTable/dbo.Contacts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\Notes.Data\\Migrations\\20241229204959_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notes.Data\\Migrations\\20241229204959_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notesmvc\\views\\notes\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|solutionrelative:notesmvc\\views\\notes\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notesmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|solutionrelative:notesmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notesmvc\\views\\notes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|solutionrelative:notesmvc\\views\\notes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notesmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|solutionrelative:notesmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notesmvc\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|solutionrelative:notesmvc\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notesmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|solutionrelative:notesmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notesmvc\\views\\notes\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|solutionrelative:notesmvc\\views\\notes\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notesmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|solutionrelative:notesmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notesmvc\\views\\notes\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|solutionrelative:notesmvc\\views\\notes\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notesmvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|solutionrelative:notesmvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notesmvc\\views\\contacts\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|solutionrelative:notesmvc\\views\\contacts\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notesmvc\\views\\contacts\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|solutionrelative:notesmvc\\views\\contacts\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notesmvc\\views\\notes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|solutionrelative:notesmvc\\views\\notes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12720607-09DA-4A21-9946-58D167A09F43}|Notes.Domain\\Notes.Domain.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notes.domain\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12720607-09DA-4A21-9946-58D167A09F43}|Notes.Domain\\Notes.Domain.csproj|solutionrelative:notes.domain\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|f:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\\u0441# hw2\\notes\\notesmvc\\views\\notes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F9E20D5-B3EE-4BDE-8D3D-A7BE4E80FA91}|NotesMVC\\NotesMVC.csproj|solutionrelative:notesmvc\\views\\notes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,151 +64,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241229210530_Initial.cs",
-              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\Notes.Data\\Migrations\\20241229210530_Initial.cs",
-              "RelativeDocumentMoniker": "Notes.Data\\Migrations\\20241229210530_Initial.cs",
-              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\Notes.Data\\Migrations\\20241229210530_Initial.cs",
-              "RelativeToolTip": "Notes.Data\\Migrations\\20241229210530_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T21:05:30.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ContactsService.cs",
-              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\Notes.Services\\ContactsService.cs",
-              "RelativeDocumentMoniker": "Notes.Services\\ContactsService.cs",
-              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\Notes.Services\\ContactsService.cs",
-              "RelativeToolTip": "Notes.Services\\ContactsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T20:58:38.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IService.cs",
-              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\Notes.Services\\Interfaces\\IService.cs",
-              "RelativeDocumentMoniker": "Notes.Services\\Interfaces\\IService.cs",
-              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\Notes.Services\\Interfaces\\IService.cs",
-              "RelativeToolTip": "Notes.Services\\Interfaces\\IService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T20:58:26.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NotesService.cs",
-              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\Notes.Services\\NotesService.cs",
-              "RelativeDocumentMoniker": "Notes.Services\\NotesService.cs",
-              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\Notes.Services\\NotesService.cs",
-              "RelativeToolTip": "Notes.Services\\NotesService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAvwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T20:52:44.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20241229204959_Initial.cs",
-              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\Notes.Data\\Migrations\\20241229204959_Initial.cs",
-              "RelativeDocumentMoniker": "Notes.Data\\Migrations\\20241229204959_Initial.cs",
-              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\Notes.Data\\Migrations\\20241229204959_Initial.cs",
-              "RelativeToolTip": "Notes.Data\\Migrations\\20241229204959_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T20:49:59.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Note.cs",
-              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\Notes.Data\\Entities\\Note.cs",
-              "RelativeDocumentMoniker": "Notes.Data\\Entities\\Note.cs",
-              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\Notes.Data\\Entities\\Note.cs",
-              "RelativeToolTip": "Notes.Data\\Entities\\Note.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T20:46:20.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "NotesMVC\\Views\\_ViewImports.cshtml",
-              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "NotesMVC\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-29T20:45:02.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "NotesMVC\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "NotesMVC\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-29T20:44:27.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "NotesMVC\\Controllers\\HomeController.cs",
-              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "NotesMVC\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T20:43:18.934Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Program.cs",
-              "RelativeDocumentMoniker": "NotesMVC\\Program.cs",
-              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Program.cs",
-              "RelativeToolTip": "NotesMVC\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T20:27:33.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\appsettings.json",
-              "RelativeDocumentMoniker": "NotesMVC\\appsettings.json",
-              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\appsettings.json",
-              "RelativeToolTip": "NotesMVC\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-29T20:27:29.214Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -214,6 +81,182 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{778b5376-ad77-4751-acdc-f3d18343f8dd}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.Contacts [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NotesDB/True/SqlTable/dbo.Contacts.sql",
+              "ToolTip": "dbo.Contacts [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-05T19:40:15.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.Notes [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NotesDB/True/SqlTable/dbo.Notes.sql",
+              "ToolTip": "dbo.Notes [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-05T18:48:41.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\Notes\\Update.cshtml",
+              "RelativeDocumentMoniker": "NotesMVC\\Views\\Notes\\Update.cshtml",
+              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\Notes\\Update.cshtml",
+              "RelativeToolTip": "NotesMVC\\Views\\Notes\\Update.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T19:29:47.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\Notes\\Index.cshtml",
+              "RelativeDocumentMoniker": "NotesMVC\\Views\\Notes\\Index.cshtml",
+              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\Notes\\Index.cshtml",
+              "RelativeToolTip": "NotesMVC\\Views\\Notes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T18:38:34.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotesController.cs",
+              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Controllers\\NotesController.cs",
+              "RelativeDocumentMoniker": "NotesMVC\\Controllers\\NotesController.cs",
+              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Controllers\\NotesController.cs",
+              "RelativeToolTip": "NotesMVC\\Controllers\\NotesController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAIwHMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:23:04.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetById.cshtml",
+              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\Contacts\\GetById.cshtml",
+              "RelativeDocumentMoniker": "NotesMVC\\Views\\Contacts\\GetById.cshtml",
+              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\Contacts\\GetById.cshtml",
+              "RelativeToolTip": "NotesMVC\\Views\\Contacts\\GetById.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T19:14:57.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotesService.cs",
+              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\Notes.Services\\NotesService.cs",
+              "RelativeDocumentMoniker": "Notes.Services\\NotesService.cs",
+              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\Notes.Services\\NotesService.cs",
+              "RelativeToolTip": "Notes.Services\\NotesService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAMwEEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:08:08.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "NotesMVC\\Controllers\\ContactsController.cs",
+              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "NotesMVC\\Controllers\\ContactsController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:16:01.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\Notes\\Create.cshtml",
+              "RelativeDocumentMoniker": "NotesMVC\\Views\\Notes\\Create.cshtml",
+              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\Notes\\Create.cshtml",
+              "RelativeToolTip": "NotesMVC\\Views\\Notes\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T18:31:54.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\Notes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "NotesMVC\\Views\\Notes\\Delete.cshtml",
+              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\Notes\\Delete.cshtml",
+              "RelativeToolTip": "NotesMVC\\Views\\Notes\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T18:46:15.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetAll.cshtml",
+              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\Notes\\GetAll.cshtml",
+              "RelativeDocumentMoniker": "NotesMVC\\Views\\Notes\\GetAll.cshtml",
+              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\Notes\\GetAll.cshtml",
+              "RelativeToolTip": "NotesMVC\\Views\\Notes\\GetAll.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T18:48:48.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetById.cshtml",
+              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\Notes\\GetById.cshtml",
+              "RelativeDocumentMoniker": "NotesMVC\\Views\\Notes\\GetById.cshtml",
+              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\Notes\\GetById.cshtml",
+              "RelativeToolTip": "NotesMVC\\Views\\Notes\\GetById.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwCkAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T19:24:34.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetAll.cshtml",
+              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\Contacts\\GetAll.cshtml",
+              "RelativeDocumentMoniker": "NotesMVC\\Views\\Contacts\\GetAll.cshtml",
+              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\NotesMVC\\Views\\Contacts\\GetAll.cshtml",
+              "RelativeToolTip": "NotesMVC\\Views\\Contacts\\GetAll.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T19:01:40.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Note.cs",
+              "DocumentMoniker": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\Notes.Domain\\Note.cs",
+              "RelativeDocumentMoniker": "Notes.Domain\\Note.cs",
+              "ToolTip": "F:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\\u0421# HW2\\Notes\\Notes.Domain\\Note.cs",
+              "RelativeToolTip": "Notes.Domain\\Note.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:31:10.363Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,0 +1,44 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model int? // Модель используется для передачи ID
+@{
+    ViewData["Title"] = "Удалить контакт";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Удалить контакт</h1>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <form asp-action="Delete" method="post" class="row g-3">
+        <div class="col-md-12">
+            <label for="ContactId" class="form-label">ID контакта</label>
+            <input name="id" id="ContactId" class="form-control" placeholder="Введите ID контакта для удаления" required />
+        </div>
+        <div class="col-md-12 text-center">
+            <button type="submit" class="btn btn-danger btn-lg">Удалить</button>
+        </div>
+    </form>
+
+    <hr class="my-5">
+
+    <div class="col-md-12 text-center">
+        <h2>Просмотреть все контакты</h2>
+        <a asp-action="GetAll" class="btn btn-primary btn-lg mt-3">Показать все контакты</a>
+    </div>
+</div>

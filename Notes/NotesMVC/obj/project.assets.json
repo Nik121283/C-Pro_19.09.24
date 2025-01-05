@@ -1496,6 +1496,30 @@
         "runtime": {
           "bin/placeholder/Notes.Data.dll": {}
         }
+      },
+      "Notes.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Notes.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Notes.Domain.dll": {}
+        }
+      },
+      "Notes.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Notes.Data": "1.0.0",
+          "Notes.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Notes.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Notes.Services.dll": {}
+        }
       }
     }
   },
@@ -3977,6 +4001,16 @@
       "type": "project",
       "path": "../Notes.Data/Notes.Data.csproj",
       "msbuildProject": "../Notes.Data/Notes.Data.csproj"
+    },
+    "Notes.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Notes.Domain/Notes.Domain.csproj",
+      "msbuildProject": "../Notes.Domain/Notes.Domain.csproj"
+    },
+    "Notes.Services/1.0.0": {
+      "type": "project",
+      "path": "../Notes.Services/Notes.Services.csproj",
+      "msbuildProject": "../Notes.Services/Notes.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3984,7 +4018,9 @@
       "Microsoft.EntityFrameworkCore >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.11",
-      "Notes.Data >= 1.0.0"
+      "Notes.Data >= 1.0.0",
+      "Notes.Domain >= 1.0.0",
+      "Notes.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4022,6 +4058,12 @@
           "projectReferences": {
             "F:\\Обучение\\C#\\С# HW2\\Notes\\Notes.Data\\Notes.Data.csproj": {
               "projectPath": "F:\\Обучение\\C#\\С# HW2\\Notes\\Notes.Data\\Notes.Data.csproj"
+            },
+            "F:\\Обучение\\C#\\С# HW2\\Notes\\Notes.Domain\\Notes.Domain.csproj": {
+              "projectPath": "F:\\Обучение\\C#\\С# HW2\\Notes\\Notes.Domain\\Notes.Domain.csproj"
+            },
+            "F:\\Обучение\\C#\\С# HW2\\Notes\\Notes.Services\\Notes.Services.csproj": {
+              "projectPath": "F:\\Обучение\\C#\\С# HW2\\Notes\\Notes.Services\\Notes.Services.csproj"
             }
           }
         }

@@ -11,7 +11,9 @@
           "Microsoft.EntityFrameworkCore": "8.0.11",
           "Microsoft.EntityFrameworkCore.Design": "8.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11",
-          "Notes.Data": "1.0.0"
+          "Notes.Data": "1.0.0",
+          "Notes.Domain": "1.0.0",
+          "Notes.Services": "1.0.0"
         },
         "runtime": {
           "NotesMVC.dll": {}
@@ -905,6 +907,26 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Notes.Domain/1.0.0": {
+        "runtime": {
+          "Notes.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Notes.Services/1.0.0": {
+        "dependencies": {
+          "Notes.Data": "1.0.0",
+          "Notes.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Notes.Services.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1440,6 +1462,16 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "Notes.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Notes.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Notes.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

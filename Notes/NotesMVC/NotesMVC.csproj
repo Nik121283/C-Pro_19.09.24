@@ -17,6 +17,19 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Notes.Data\Notes.Data.csproj" />
+    <ProjectReference Include="..\Notes.Domain\Notes.Domain.csproj" />
+    <ProjectReference Include="..\Notes.Services\Notes.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Tags\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\Notes\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

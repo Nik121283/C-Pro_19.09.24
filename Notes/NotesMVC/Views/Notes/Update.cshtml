@@ -1,0 +1,42 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Notes.Domain.Note
+@{
+    ViewData["Title"] = "Изменить заметку";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Изменить заметку</h1>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <form asp-action="Update" method="post" class="row g-3">
+        <div class="col-md-6">
+            <label asp-for="Id" class="form-label">Id заметки</label>
+            <input asp-for="Id" class="form-control" placeholder="Введите ID заметки для изменения" required />
+        </div>
+        <div class="col-md-6">
+            <label asp-for="Title" class="form-label">Заголовок заметки</label>
+            <input asp-for="Title" class="form-control" placeholder="Введите заголовок заметки" required />
+        </div>
+        <div class="col-md-6">
+            <label asp-for="Text" class="form-label">Текст заметки</label>
+            <textarea asp-for="Text" class="form-control" placeholder="Введите текст заметки" rows="5" style="resize: none;"></textarea>
+        </div>
+        <div class="col-md-12">
+            <label asp-for="ContactId" class="form-label">Id контакта</label>
+            <input asp-for="ContactId" class="form-control" placeholder="Введите Id контакта чья заметка" required />
+        </div>
+        <div class="col-md-12 text-center mt-3">
+            <button type="submit" class="btn btn-primary btn-lg">Добавить</button>
+        </div>
+    </form>
+</div>
+

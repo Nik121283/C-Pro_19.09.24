@@ -129,9 +129,7 @@ F:\Обучение\C#\С# HW2\Notes\NotesMVC\bin\Debug\net8.0\runtimes\win\lib\
 F:\Обучение\C#\С# HW2\Notes\NotesMVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 F:\Обучение\C#\С# HW2\Notes\NotesMVC\bin\Debug\net8.0\Notes.Data.dll
 F:\Обучение\C#\С# HW2\Notes\NotesMVC\bin\Debug\net8.0\Notes.Data.pdb
-F:\Обучение\C#\С# HW2\Notes\NotesMVC\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 F:\Обучение\C#\С# HW2\Notes\NotesMVC\obj\Debug\net8.0\scopedcss\bundle\NotesMVC.styles.css
-F:\Обучение\C#\С# HW2\Notes\NotesMVC\obj\Debug\net8.0\scopedcss\projectbundle\NotesMVC.bundle.scp.css
 F:\Обучение\C#\С# HW2\Notes\NotesMVC\obj\Debug\net8.0\staticwebassets.build.json
 F:\Обучение\C#\С# HW2\Notes\NotesMVC\obj\Debug\net8.0\staticwebassets.development.json
 F:\Обучение\C#\С# HW2\Notes\NotesMVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
@@ -148,3 +146,7 @@ F:\Обучение\C#\С# HW2\Notes\NotesMVC\obj\Debug\net8.0\refint\NotesMVC.d
 F:\Обучение\C#\С# HW2\Notes\NotesMVC\obj\Debug\net8.0\NotesMVC.pdb
 F:\Обучение\C#\С# HW2\Notes\NotesMVC\obj\Debug\net8.0\NotesMVC.genruntimeconfig.cache
 F:\Обучение\C#\С# HW2\Notes\NotesMVC\obj\Debug\net8.0\ref\NotesMVC.dll
+F:\Обучение\C#\С# HW2\Notes\NotesMVC\bin\Debug\net8.0\Notes.Domain.dll
+F:\Обучение\C#\С# HW2\Notes\NotesMVC\bin\Debug\net8.0\Notes.Services.dll
+F:\Обучение\C#\С# HW2\Notes\NotesMVC\bin\Debug\net8.0\Notes.Domain.pdb
+F:\Обучение\C#\С# HW2\Notes\NotesMVC\bin\Debug\net8.0\Notes.Services.pdb

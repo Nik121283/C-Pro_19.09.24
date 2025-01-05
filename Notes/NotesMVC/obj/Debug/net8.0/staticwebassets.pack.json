@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "F:\\Обучение\\C#\\С# HW2\\Notes\\NotesMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NotesMVC.bundle.scp.css",
-      "PackagePath": "staticwebassets\\NotesMVC.pu7cr74h5m.bundle.scp.css"
-    },
-    {
       "Id": "F:\\Обучение\\C#\\С# HW2\\Notes\\NotesMVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -1,7 +1,4 @@
 ﻿using Notes.Data;
-using Notes.Data;
-using Notes.Data.Entities;
-using Notes.Domain;
 using Notes.Services.Interfaces;
 
 namespace Notes.Services
@@ -17,21 +14,22 @@ namespace Notes.Services
 
         public void Add(Notes.Domain.Note adding)
         {
-            _noteContext.Add(new Data.Entities.Note { Title = adding.Title, Text = adding.Text, Created = adding.Created, ContactId = adding.ContactId});
+            _noteContext.Notes.Add(new Data.Entities.Note { Title = adding.Title, Text = adding.Text, Created = adding.Created, ContactId = adding.ContactId});
+            _noteContext.SaveChanges();
         }
 
         public Notes.Domain.Note Get(int Id)
         {
             if (Id > 0)
             {
-                return _noteContext.Notes.Where(x => x.Id == Id).Select(x => new Notes.Domain.Note { Id = x.Id, Title = x.Title, ContactId = x.ContactId, Created = x.Created }).FirstOrDefault();
+                return _noteContext.Notes.Where(x => x.Id == Id).Select(x => new Notes.Domain.Note { Id = x.Id, Title = x.Title, ContactId = x.ContactId, Created = x.Created, Text = x.Text }).FirstOrDefault();
             }
             else { return null; }
         }
 
         public IEnumerable<Notes.Domain.Note> GetAll()
         {
-            return _noteContext.Notes.Select(x => new Notes.Domain.Note { Id = x.Id, Title = x.Title, ContactId = x.ContactId, Created = x.Created});
+            return _noteContext.Notes.Select(x => new Notes.Domain.Note { Id = x.Id, Title = x.Title, ContactId = x.ContactId, Created = x.Created, Text = x.Text});
         }
 
         public void Remove(int Id)
@@ -55,8 +53,9 @@ namespace Notes.Services
             if (Id >= 0)
             {
                 var changingItem = _noteContext.Notes.Where(x => x.Id == Id).FirstOrDefault();
+                var checkNewNoteOwner = _noteContext.Contacts.Where(x=> x.Id == newItem.ContactId).FirstOrDefault();
 
-                if (changingItem != null)
+                if (changingItem != null && checkNewNoteOwner != null)
                 {
                     changingItem.Text = newItem.Text;
                     changingItem.Title = newItem.Title;

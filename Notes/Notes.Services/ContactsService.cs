@@ -54,6 +54,7 @@ namespace Notes.Services
             else { throw new Exception(); }
         }
 
+        
         public void Update(int Id, Contact contact)
         {
             if (Id >= 0)
@@ -62,15 +63,18 @@ namespace Notes.Services
 
                 if (changingItem != null)
                 {
+                    changingItem.Id = Id;
                     changingItem.Name = contact.Name;
                     changingItem.Surname = contact.Surname;
-                    changingItem.Description = contact.Description;
                     changingItem.Email = contact.Email;
                     changingItem.Phone1 = contact.Phone1;
-                    changingItem.Phone2 = contact.Phone2;
+                    changingItem.Phone2 = contact.Phone2; 
+                    changingItem.Description = contact.Description;
+
                     _noteContext.SaveChanges();
                 }
                 else { throw new Exception(); }
+
             }
             else { throw new Exception(); }
         }

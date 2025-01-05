@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x4LRBlGKsrwSZ66bU5hp4n+jroHPXkeDtiazhmoJ8VM=",
+  "Hash": "UNtH+FaJJ2mG4k7ghizjGw9QnENidCCv0wjMukQpCTg=",
   "Source": "NotesMVC",
   "BasePath": "_content/NotesMVC",
   "Mode": "Default",
@@ -17,48 +17,6 @@
   ],
   "Assets": [
     {
-      "Identity": "F:\\Обучение\\C#\\С# HW2\\Notes\\NotesMVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\NotesMVC.styles.css",
-      "SourceId": "NotesMVC",
-      "SourceType": "Computed",
-      "ContentRoot": "F:\\Обучение\\C#\\С# HW2\\Notes\\NotesMVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/NotesMVC",
-      "RelativePath": "NotesMVC#[.{fingerprint}]?.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "pu7cr74h5m",
-      "Integrity": "wakSGNWmpfk3l+530bid7P9PDSuVe8tChlHW4BnZDOw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\Обучение\\C#\\С# HW2\\Notes\\NotesMVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\NotesMVC.styles.css"
-    },
-    {
-      "Identity": "F:\\Обучение\\C#\\С# HW2\\Notes\\NotesMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NotesMVC.bundle.scp.css",
-      "SourceId": "NotesMVC",
-      "SourceType": "Computed",
-      "ContentRoot": "F:\\Обучение\\C#\\С# HW2\\Notes\\NotesMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/NotesMVC",
-      "RelativePath": "NotesMVC#[.{fingerprint}]!.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "pu7cr74h5m",
-      "Integrity": "wakSGNWmpfk3l+530bid7P9PDSuVe8tChlHW4BnZDOw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\Обучение\\C#\\С# HW2\\Notes\\NotesMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NotesMVC.bundle.scp.css"
-    },
-    {
       "Identity": "F:\\Обучение\\C#\\С# HW2\\Notes\\NotesMVC\\wwwroot\\css\\site.css",
       "SourceId": "NotesMVC",
       "SourceType": "Discovered",
@@ -73,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "unh7fmlj38",
+      "Integrity": "Kuz9HC+x5o0Ec0HX/Cq6LtobV/byE6LBIxorPM8C3HE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1321,51 +1279,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "F:\\Обучение\\C#\\С# HW2\\Notes\\NotesMVC\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "362"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 29 Dec 2024 20:27:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "F:\\Обучение\\C#\\С# HW2\\Notes\\NotesMVC\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1376,7 +1289,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "631"
         },
         {
           "Name": "Content-Type",
@@ -1384,11 +1297,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"Kuz9HC+x5o0Ec0HX/Cq6LtobV/byE6LBIxorPM8C3HE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 29 Dec 2024 20:27:21 GMT"
+          "Value": "Fri, 03 Jan 2025 16:43:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1398,7 +1311,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-Kuz9HC+x5o0Ec0HX/Cq6LtobV/byE6LBIxorPM8C3HE="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.unh7fmlj38.css",
+      "AssetFile": "F:\\Обучение\\C#\\С# HW2\\Notes\\NotesMVC\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "631"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kuz9HC+x5o0Ec0HX/Cq6LtobV/byE6LBIxorPM8C3HE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 16:43:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "unh7fmlj38"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kuz9HC+x5o0Ec0HX/Cq6LtobV/byE6LBIxorPM8C3HE="
         }
       ]
     },
@@ -6237,170 +6195,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
-        }
-      ]
-    },
-    {
-      "Route": "NotesMVC.bundle.scp.css",
-      "AssetFile": "F:\\Обучение\\C#\\С# HW2\\Notes\\NotesMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NotesMVC.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1126"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wakSGNWmpfk3l+530bid7P9PDSuVe8tChlHW4BnZDOw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 29 Dec 2024 21:04:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wakSGNWmpfk3l+530bid7P9PDSuVe8tChlHW4BnZDOw="
-        }
-      ]
-    },
-    {
-      "Route": "NotesMVC.pu7cr74h5m.bundle.scp.css",
-      "AssetFile": "F:\\Обучение\\C#\\С# HW2\\Notes\\NotesMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NotesMVC.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1126"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wakSGNWmpfk3l+530bid7P9PDSuVe8tChlHW4BnZDOw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 29 Dec 2024 21:04:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pu7cr74h5m"
-        },
-        {
-          "Name": "label",
-          "Value": "NotesMVC.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wakSGNWmpfk3l+530bid7P9PDSuVe8tChlHW4BnZDOw="
-        }
-      ]
-    },
-    {
-      "Route": "NotesMVC.pu7cr74h5m.styles.css",
-      "AssetFile": "F:\\Обучение\\C#\\С# HW2\\Notes\\NotesMVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\NotesMVC.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1126"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wakSGNWmpfk3l+530bid7P9PDSuVe8tChlHW4BnZDOw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 29 Dec 2024 21:04:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pu7cr74h5m"
-        },
-        {
-          "Name": "label",
-          "Value": "NotesMVC.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wakSGNWmpfk3l+530bid7P9PDSuVe8tChlHW4BnZDOw="
-        }
-      ]
-    },
-    {
-      "Route": "NotesMVC.styles.css",
-      "AssetFile": "F:\\Обучение\\C#\\С# HW2\\Notes\\NotesMVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\NotesMVC.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1126"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wakSGNWmpfk3l+530bid7P9PDSuVe8tChlHW4BnZDOw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 29 Dec 2024 21:04:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wakSGNWmpfk3l+530bid7P9PDSuVe8tChlHW4BnZDOw="
         }
       ]
     }

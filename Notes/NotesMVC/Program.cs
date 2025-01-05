@@ -1,12 +1,18 @@
 using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
 using Notes.Data;
+using Notes.Services.Interfaces;
+using Notes.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IService<Notes.Domain.Contact>, ContactsService>();
+builder.Services.AddScoped<IService<Notes.Domain.Tag>, TagsService>();
+builder.Services.AddScoped<IService<Notes.Domain.Note>, NotesService>();
 builder.Services.AddDbContext<NoteContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionString")));
+
 
 var app = builder.Build();
 
@@ -15,6 +21,7 @@ if (!app.Environment.IsDevelopment())
 {
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
+ 
 }
 
 app.UseHttpsRedirection();

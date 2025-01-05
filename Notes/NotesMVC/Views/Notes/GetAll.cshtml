@@ -1,0 +1,39 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    ViewData["Title"] = "Показать контакты";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Показать все заметки</h1>
+
+    <!-- Пустая зона, которая будет серой на старте -->
+    <div id="notes-zone" class="mt-4 p-3 border rounded" style="background-color: #f0f0f0;height: calc(20 * 1.5em); overflow-y: auto;">
+        @if (Model != null)
+        {
+            <div class="mt-4">
+                @foreach (var note in Model)
+                {
+                    <div class="contact-item mb-3 p-3 border rounded">
+                        <h5>@note.Title</h5>
+                        <p><strong>Id:</strong> @note.Id</p>
+                        <p><strong>Текст:</strong> @note.Text</p>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+
+    <!-- Форма с кнопкой для загрузки контактов -->
+    <div class="row justify-content-center mt-3">
+        <div class="col-md-6 text-center">
+            <form method="post">
+                <button type="submit" class="btn btn-primary btn-lg">Показать</button>
+            </form>
+        </div>
+    </div>
+
+
+</div>

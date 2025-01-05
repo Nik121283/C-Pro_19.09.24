@@ -1,0 +1,50 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Notes.Domain.Note
+
+@{
+    ViewData["Title"] = "Найти заметку";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Найти заметку по Id</h1>
+
+    <!-- Сообщение об ошибке -->
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger mt-3" role="alert">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    <!-- Пустая зона, которая будет серой на старте -->
+    <div id="contacts-zone" class="mt-4 p-3 border rounded" style="background-color: #f0f0f0; height: calc(20 * 1.5em); overflow-y: auto;">
+        @if (Model != null)
+        {
+            <div class="contact-item mb-3 p-3 border rounded">
+                <h5>@Model.Title</h5>
+                <p><strong>Id:</strong> @Model.Id</p>
+                <p><strong>Текст:</strong> @Model.Text</p>
+            </div>
+        }
+        else
+        {
+            <p class="text-muted">Результаты будут отображаться здесь после отправки формы.</p>
+        }
+    </div>
+
+    <!-- Форма с полем для ввода Id -->
+    <div class="row justify-content-center mt-3">
+        <div class="col-md-6 text-center">
+            <form method="post">
+                <div class="mb-3">
+                    <label for="NoteId" class="form-label">Введите Id заметки</label>
+                    <input type="number" name="id" id="NoteId" class="form-control" placeholder="Введите Id" required />
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg">Найти</button>
+            </form>
+        </div>
+    </div>
+
+</div>
